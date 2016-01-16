@@ -1,0 +1,3188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smooththemes\n"
+"POT-Creation-Date: 2013-11-08 15:31+0700\n"
+"PO-Revision-Date: 2013-11-08 15:31+0700\n"
+"Last-Translator: Sa Hoang Truong <shrimp2t2gmail.com>\n"
+"Language-Team: Sa\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_n\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../stToolKit/stToolKit.php:152
+msgid ""
+"Your theme does not declare <b>stToolKit</b> support – if you encounter "
+"layout issues please read our integration guide or choose a theme  from "
+"smooththemes.com :)"
+msgstr ""
+
+#: ../stToolKit/stToolKit.php:153
+msgid "Get a Theme"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:11
+msgid "Which categories should be used for the blog?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:12
+msgid ""
+"Which categories should be used for the blog? You can select multiple "
+"categories here. The Page will then show posts from only those categories."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:21
+#: ../stToolKit/config/builder-items-functions.php:1747
+#: ../stToolKit/inc/builder-input.php:552
+msgid "Number"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:22
+msgid "How many post you want to display ?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:31
+msgid "List"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:32
+msgid "Grid"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:37
+msgid "Display style"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:38
+msgid "Select list or gird for list post"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:47
+#, php-format
+msgid "%d Column"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:52
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:489
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:501
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:530
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:624
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:395
+msgid "Layout"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:53
+msgid "Select layout for list post"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:62
+msgid "Full with"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:63
+msgid "Medium left"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:64
+msgid "Medium right"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:69
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:568
+msgid "Thumbnail Type"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:70
+msgid "Select thumbnail type for list post"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:81
+#: ../stToolKit/config/builder-items-functions.php:1771
+msgid "Exclude"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:82
+msgid ""
+"Define a comma-separated list of post IDs to be Exclude from the list, "
+"(example: 3,7,31 )"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:91
+#: ../stToolKit/config/builder-items-functions.php:1781
+msgid "Include"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:92
+msgid ""
+"Define a comma-separated list of post IDs to be Include from the list, "
+"(example: 3,7,31 )"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:101
+#: ../stToolKit/config/builder-items-functions.php:1791
+msgid "Offset"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:102
+msgid ""
+"The number of Posts to pass over (or displace) before collecting the set of "
+"Posts."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:118
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:119
+msgid "The number of words you wish to display in the excerpt"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:126
+#: ../stToolKit/config/builder-items-functions.php:844
+#: ../stToolKit/config/builder-items-functions.php:1799
+#: ../stToolKit/config/builder-items-functions.php:1843
+#: ../stToolKit/config/layout-items.php:121
+#: ../stToolKit/inc/builder-input.php:557
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:655
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:813
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:862
+msgid "No"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:127
+#: ../stToolKit/config/builder-items-functions.php:844
+#: ../stToolKit/config/builder-items-functions.php:1800
+#: ../stToolKit/config/builder-items-functions.php:1844
+#: ../stToolKit/config/layout-items.php:122
+#: ../stToolKit/inc/builder-input.php:558
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:654
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:812
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:861
+msgid "Yes"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:131
+#: ../stToolKit/config/builder-items-functions.php:1804
+msgid "Pagination"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:132
+#: ../stToolKit/config/builder-items-functions.php:1805
+msgid "Should a pagination be displayed?."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:139
+#: ../stToolKit/config/builder-items-functions.php:1814
+msgid "Sort by creation time"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:140
+msgid "Sort Posts alphabetically (by title) "
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:141
+#: ../stToolKit/config/builder-items-functions.php:1816
+msgid "Random"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:142
+msgid "Sort by numeric Page ID"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:146
+#: ../stToolKit/config/builder-items-functions.php:1822
+msgid "Sort By"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:147
+msgid "Sorts the list of Post in a number of different ways."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:154
+#: ../stToolKit/config/builder-items-functions.php:1831
+msgid "Descending"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:155
+#: ../stToolKit/config/builder-items-functions.php:1830
+msgid "Ascending"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:160
+#: ../stToolKit/config/builder-items-functions.php:1835
+msgid "Sort Order "
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:161
+msgid "Change the sort order of the list of Post."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:176
+msgid "Sidebar Name"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:177
+msgid "Select Sidebar you want display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:190
+#: ../stToolKit/config/builder-items-functions.php:1169
+msgid "Content"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:191
+msgid "Enter some content for this textblock"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:193
+#: ../stToolKit/config/builder-items-functions.php:594
+#: ../stToolKit/config/builder-items-functions.php:1165
+#: ../stToolKit/config/builder-items-functions.php:1682
+#: ../stToolKit/config/builder-items-functions.php:2056
+#: ../stToolKit/inc/builder-input.php:498
+#: ../stToolKit/inc/builder-input.php:774
+#: ../stToolKit/inc/builder-input.php:995
+msgid "Arbitrary text or HTML"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:194
+#: ../stToolKit/config/builder-items-functions.php:595
+#: ../stToolKit/config/builder-items-functions.php:1166
+#: ../stToolKit/config/builder-items-functions.php:1683
+#: ../stToolKit/config/builder-items-functions.php:2057
+#: ../stToolKit/inc/builder-input.php:499
+#: ../stToolKit/inc/builder-input.php:775
+#: ../stToolKit/inc/builder-input.php:997
+#: ../stToolKit/widgets/tab-content.php:176
+#: ../stToolKit/widgets/tab-content.php:238
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:202
+#: ../stToolKit/config/builder-items-functions.php:2191
+msgid "Text Color"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:203
+msgid "Special text color for this text block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:211
+#: ../stToolKit/config/builder-items-functions.php:354
+#: ../stToolKit/config/builder-items-functions.php:977
+#: ../stToolKit/config/builder-items-functions.php:1057
+#: ../stToolKit/config/builder-items-functions.php:1272
+#: ../stToolKit/config/builder-items-functions.php:1812
+#: ../stToolKit/config/builder-items-functions.php:2102
+#: ../stToolKit/config/layout-items.php:42
+msgid "Default"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:212
+#: ../stToolKit/config/builder-items-functions.php:355
+#: ../stToolKit/config/builder-items-functions.php:895
+#: ../stToolKit/config/builder-items-functions.php:1058
+#: ../stToolKit/config/builder-items-functions.php:1180
+#: ../stToolKit/config/layout-items.php:181
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:723
+msgid "Center"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:213
+#: ../stToolKit/config/builder-items-functions.php:356
+#: ../stToolKit/config/builder-items-functions.php:896
+#: ../stToolKit/config/builder-items-functions.php:1059
+#: ../stToolKit/config/builder-items-functions.php:1179
+#: ../stToolKit/config/builder-items-functions.php:1227
+msgid "Left"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:214
+#: ../stToolKit/config/builder-items-functions.php:357
+#: ../stToolKit/config/builder-items-functions.php:897
+#: ../stToolKit/config/builder-items-functions.php:1060
+#: ../stToolKit/config/builder-items-functions.php:1228
+msgid "Right"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:218
+#: ../stToolKit/config/builder-items-functions.php:361
+msgid "Text Align"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:219
+msgid "Choose the alignment of your Text here."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:228
+#: ../stToolKit/config/builder-items-functions.php:887
+#: ../stToolKit/config/builder-items-functions.php:1218
+#: ../stToolKit/config/layout-items.php:272
+msgid "Effect"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:229
+msgid "Special Effect for this text block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:250
+msgid "Adress:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:254
+msgid "Latitude"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:259
+msgid "Longitude"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:268
+msgid "Add/Edit Addresses"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:269
+msgid ""
+"Here you can add, remove and edit the Addresses you want to display. Each "
+"Item requered Latitude and Longitude for your address. You can find the "
+"Latitude and Longitude <a target=\"_blank\" href=\"http://itouchmap.com/"
+"latlong.html\">Here</a> or <a target=\"_blank\" href=\"http://universimmedia."
+"pagesperso-orange.fr/geo/loc.htm\">Here</a> "
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:282
+msgid "Zoom level"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:283
+msgid ""
+"The range depends on where you are looking at. Some places only have zoom "
+"levels of 15 or so, where as other places have 23 (or possibly more). O is "
+"smallest."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:296
+msgid "Height"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:297
+msgid "Map height in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:307
+msgid "Color"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:308
+msgid "Special color for this Map"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:330
+msgid "Heading text"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:346
+msgid "Heading type"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:347
+msgid "Select a heading style."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:362
+msgid "Choose the alignment of your Heading here."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:372
+msgid "Text color"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:382
+msgid "Padding Top"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:383
+msgid "Top Padding in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:392
+msgid "Padding Bottom"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:393
+msgid "Bottom Padding in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:403
+#: ../stToolKit/config/builder-items-functions.php:1002
+msgid "Margin Top"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:404
+#: ../stToolKit/config/builder-items-functions.php:1003
+msgid "Top margin in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:413
+#: ../stToolKit/config/builder-items-functions.php:1012
+msgid "Margin Bottom"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:414
+#: ../stToolKit/config/builder-items-functions.php:1013
+msgid "Margin Padding in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:423
+msgid "Custom class"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:424
+msgid "Class name for your own style."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:438
+msgid "Display tabs at the top"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:439
+msgid "Display Tabs on the left"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:440
+msgid "Display Tabs on the right"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:444
+msgid "Tab Position"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:445
+msgid "Where should the tabs be displayed."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:450
+msgid "Add/Edit Tabs"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:451
+msgid "Here you can add, remove and edit the Tabs you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:465
+#: ../stToolKit/config/builder-items-functions.php:498
+#: ../stToolKit/config/builder-items-functions.php:531
+msgid "Initial Open"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:466
+#: ../stToolKit/config/builder-items-functions.php:499
+#: ../stToolKit/config/builder-items-functions.php:532
+msgid "Enter the Number of the Tab that should be open initially."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:486
+msgid "Add/Edit Toggle"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:487
+msgid "Here you can add, remove and edit the Toggles you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:519
+msgid "Add/Edit Accordion"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:520
+msgid "Here you can add, remove and edit the Accordions you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:552
+#: ../stToolKit/inc/builder-input.php:864
+msgid "Name:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:553
+#: ../stToolKit/config/builder-items-functions.php:752
+#: ../stToolKit/config/builder-items-functions.php:1324
+#: ../stToolKit/config/builder-items-functions.php:1583
+#: ../stToolKit/inc/builder-input.php:819
+msgid "Image:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:556
+#: ../stToolKit/config/builder-items-functions.php:1653
+msgid "Subtitle/Job description"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:565
+msgid "Add/Edit Testimonials"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:566
+msgid "Here you can add, remove and edit the Testimonials you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:574
+msgid "Testimonial list"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:575
+msgid "Testimonial Slider"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:579
+msgid "Testimonial Style"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:580
+msgid "Here you can select how to display the testimonials."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:598
+msgid "Message"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:599
+msgid "This is the text that appears in your Notification."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:606
+#: ../stToolKit/config/builder-items.php:97
+msgid "Notification"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:607
+#: ../stToolKit/config/builder-items-functions.php:980
+msgid "Info"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:608
+#: ../stToolKit/config/builder-items-functions.php:979
+msgid "Success"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:609
+msgid "Error"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:613
+msgid "Message Type"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:614
+msgid "Choose the Message Type for your Box here."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:620
+#: ../stToolKit/config/builder-items-functions.php:1085
+#: ../stToolKit/config/builder-items-functions.php:1192
+#: ../stToolKit/config/builder-items-functions.php:2016
+#: ../stToolKit/inc/builder-input.php:920
+#: ../stToolKit/inc/builder-input.php:947
+msgid "Icon"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:621
+#: ../stToolKit/config/builder-items-functions.php:2017
+msgid "Select your icon."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:638
+msgid "While Space"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:639
+msgid "Line"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:643
+msgid "Divider Styling"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:644
+msgid "Here you can set the styling and size of the Divider element."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:653
+msgid "Divider Height"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:654
+msgid "Divider height in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:663
+msgid "Divider Margin Top"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:664
+msgid "Divider margin top in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:673
+msgid "Divider Margin Bottom"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:674
+msgid "Divider margin bottom in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:697
+msgid "List title:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:698
+#: ../stToolKit/inc/builder-input.php:820
+msgid "Icon:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:704
+msgid "Add/Edit List Items"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:705
+msgid "Here you can add, remove and edit the items of your item list."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:714
+#: ../stToolKit/config/builder-items-functions.php:1240
+msgid "Default- Inherit form theme settings"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:715
+#: ../stToolKit/config/builder-items-functions.php:1241
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:675
+msgid "Custom"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:719
+#: ../stToolKit/config/builder-items-functions.php:1245
+msgid "Icon Color"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:728
+#: ../stToolKit/config/builder-items-functions.php:1254
+msgid "Icon Custom Color"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:751
+msgid "Client:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:755
+msgid "Website URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:764
+msgid "Add/Edit Clients"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:765
+msgid "Here you can add, remove and edit the Clients you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:780
+#: ../stToolKit/config/builder-items-functions.php:1610
+msgid "Visible items."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:781
+#: ../stToolKit/config/builder-items-functions.php:1611
+msgid "The number of visible items."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:789
+#: ../stToolKit/config/builder-items-functions.php:935
+#: ../stToolKit/config/builder-items-functions.php:1073
+#: ../stToolKit/config/builder-items-functions.php:1357
+#: ../stToolKit/config/builder-items-functions.php:1619
+msgid "No, open in same window"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:790
+#: ../stToolKit/config/builder-items-functions.php:936
+#: ../stToolKit/config/builder-items-functions.php:1074
+#: ../stToolKit/config/builder-items-functions.php:1358
+#: ../stToolKit/config/builder-items-functions.php:1620
+msgid "Yes, open in new window"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:794
+#: ../stToolKit/config/builder-items-functions.php:940
+#: ../stToolKit/config/builder-items-functions.php:1078
+#: ../stToolKit/config/builder-items-functions.php:1362
+#: ../stToolKit/config/builder-items-functions.php:1624
+msgid "Open Link in new Window?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:795
+#: ../stToolKit/config/builder-items-functions.php:941
+#: ../stToolKit/config/builder-items-functions.php:1079
+#: ../stToolKit/config/builder-items-functions.php:1363
+#: ../stToolKit/config/builder-items-functions.php:1625
+msgid "Select here if you want to open the linked page in a new window."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:807
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:810
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:562
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:578
+msgid "Gallery"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:811
+msgid "Create a new Gallery by selecting existing or uploading new images"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:822
+#: ../stToolKit/config/builder-items-functions.php:877
+msgid "Preview Image Size"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:823
+#: ../stToolKit/config/builder-items-functions.php:878
+msgid "Choose image size for the preview thumbnails."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:836
+#: ../stToolKit/config/builder-items-functions.php:1761
+msgid "Columns"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:837
+msgid "Choose the column count of your Gallery."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:847
+msgid "Use Lighbox"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:848
+msgid "Do you want to activate the lightbox."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:862
+#: ../stToolKit/config/builder-items-functions.php:1659
+msgid "Insert Image"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:865
+#: ../stToolKit/config/builder-items-functions.php:1662
+msgid "Choose Image"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:866
+msgid ""
+"Either upload a new, or choose an existing image from your media library"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:888
+#: ../stToolKit/config/layout-items.php:273
+msgid "Special Effect for this Image"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:901
+msgid "Image Position"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:902
+msgid "Choose the alignment of your Image here."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:910
+#: ../stToolKit/inc/builder-input.php:550
+msgid "None"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:911
+msgid "Lightbox"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:912
+msgid "Link"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:916
+msgid "Use Lightbox or Link?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:917
+msgid "Choose Lightbox or static link?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:927
+msgid "Image Link?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:928
+msgid "Where should your image link to?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:957
+msgid "Button Label"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:958
+msgid "This is the text that appears on your button."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:969
+msgid "Button Link?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:970
+msgid "Where should your Button link to?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:978
+msgid "Primary"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:981
+msgid "Warning"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:982
+msgid "Danger"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:983
+msgid "Color - Inherit from theme settings"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:988
+msgid "Button Style"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:989
+msgid "Choose the style of your Button here."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:994
+msgid "Is block button ?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1042
+msgid "Normal"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1043
+#: ../stToolKit/config/builder-items-functions.php:1200
+#: ../stToolKit/config/builder-items-functions.php:2156
+msgid "Small"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1044
+#: ../stToolKit/config/builder-items-functions.php:1202
+#: ../stToolKit/config/builder-items-functions.php:2157
+msgid "Large"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1048
+msgid "Button Size"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1064
+msgid "Button Position"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1065
+msgid "Choose the alignment of your Button here."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1086
+msgid "Select icon for your Button."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1105
+#: ../stToolKit/config/builder-items.php:186
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:564
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:589
+msgid "Video"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1106
+msgid ""
+"Link to a video by URL.<p>Working examples:<br/> http://vimeo."
+"com/18439821<br/>http://www.youtube.com/watch?v=l9Fi3E-8PmA</p>"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1113
+msgid "16:9"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1114
+msgid "4:3"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1115
+msgid "Custom Ratio"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1119
+msgid "Video Format"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1120
+msgid ""
+"Choose if you want to display a modern 16:9 or classic 4:3 Video, or use a "
+"custom ratio."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1130
+msgid "Video width"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1131
+msgid "Enter a value for the width"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1140
+msgid "Video height"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1141
+msgid "Enter a value for the height"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1157
+#: ../stToolKit/config/builder-items-functions.php:1972
+#: ../stToolKit/config/builder-items-functions.php:2127
+#: ../stToolKit/widgets/twitter.php:72
+msgid "Title"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1158
+#: ../stToolKit/config/builder-items-functions.php:1170
+msgid "Enter something."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1181
+msgid "right"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1186
+msgid "Text algin"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1201
+msgid "Medium"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1207
+msgid "Icon Size"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1208
+msgid "Select Icon size to display ?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1219
+msgid "Special Effect for this Icon"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1226
+#: ../stToolKit/config/layout-items.php:257
+msgid "Top"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1232
+msgid "Icon Position"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1233
+msgid "Where the Icon display ?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1273
+msgid "Striped rows"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1274
+msgid "Bordered table"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1275
+msgid "Striped rows & Bordered table"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1276
+msgid "Hover rows"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1277
+msgid "Hover rows & Bordered table"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1281
+msgid "Table Purpose"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1282
+msgid ""
+"Choose if the table should be used to display tabular data or to display "
+"pricing options. (Difference: Pricing tables are flashier and try to stand "
+"out)."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1291
+msgid "Table Caption"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1292
+msgid ""
+"Add a short caption to the table so visitors know what the data is about"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1327
+#: ../stToolKit/config/builder-items-functions.php:1586
+msgid "Link URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1336
+msgid "Add/Edit Sliders"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1337
+msgid "Here you can add, remove and edit the Sliders you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1348
+#: ../stToolKit/config/builder-items-functions.php:1673
+msgid "Image Size"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1349
+msgid "Choose image size for the Slider."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1378
+msgid "Login redirect URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1379
+msgid "The url will be redirect when user logged in success."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1388
+msgid "Logout redirect URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1389
+msgid "The url will be redirect when user logout"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1398
+msgid "Register URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1399
+msgid "Link to register page."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1408
+msgid "Profile URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1409
+msgid "Link to profile page, Defaul WordPress profile page."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1418
+msgid "Lost password URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1419
+msgid "Link to lost password page"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1434
+msgid "Login URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1435
+msgid "The url to switch to login page."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1444
+msgid "Success redirect URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1445
+msgid "The url will be redirect when registration Success."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1456
+#: ../stToolKit/config/builder-items-functions.php:1466
+msgid "Nothing to change here :)"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1484
+msgid "Add/Edit Form Elements"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1485
+msgid ""
+"Here you can add, drag, remove and edit form elements you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1495
+msgid "E-mail(s) To"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1504
+msgid "Your Name or Company"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1505
+#: ../stToolKit/config/builder-items-functions.php:1515
+msgid "User's Name (optional), No required text fields detected"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1514
+msgid "E-mail From"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1521
+msgid "You have new message from "
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1524
+msgid "E-mail Subject"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1530
+msgid "Your message has been sent"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1533
+msgid "Success Message"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1539
+msgid ""
+"Validation errors occurred. Please confirm the fields and submit it again."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1542
+msgid "Notification Message"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1548
+msgid "Captcha incorect !"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1551
+msgid "Notification Captcha"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1559
+msgid "Generate"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1563
+msgid "E-mail Message Body"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1595
+msgid "Add/Edit Carousels"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1596
+msgid "Here you can add, remove and edit the Carousels you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1644
+#: ../stToolKit/inc/user/profile.php:78
+msgid "Name"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1674
+msgid "Choose image size."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1686
+#: ../stToolKit/config/builder-items-functions.php:2053
+msgid "Description"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1693
+#: ../stToolKit/inc/shortcodes.php:2236
+msgid "Facebook URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1694
+#: ../stToolKit/inc/shortcodes.php:2237
+msgid "Twitter URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1695
+#: ../stToolKit/inc/shortcodes.php:2238
+msgid "Google plus URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1696
+#: ../stToolKit/inc/shortcodes.php:2239
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1697
+#: ../stToolKit/inc/shortcodes.php:2240
+msgid "Skype ID"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1698
+#: ../stToolKit/inc/shortcodes.php:2241
+msgid "StumbleUpon URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1699
+#: ../stToolKit/inc/shortcodes.php:2242
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1700
+#: ../stToolKit/inc/shortcodes.php:2243
+msgid "Picasa URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1701
+#: ../stToolKit/inc/shortcodes.php:2244
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1702
+#: ../stToolKit/inc/shortcodes.php:2245
+msgid "Flickr URL"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1737
+msgid "Which categories should be used for the Products?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1738
+msgid ""
+"Which categories should be used for the Products? You can select multiple "
+"categories here. The Page will then show Products from only those categories."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1748
+msgid "How many Product you want to display ?"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1762
+msgid "Choose the column count of your Products."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1772
+msgid ""
+"Define a comma-separated list of product IDs to be Exclude from the list, "
+"(example: 3,7,31)"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1782
+msgid ""
+"Define a comma-separated product of post IDs to be Include from the list, "
+"(example: 3,7,31)"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1792
+msgid ""
+"The number of Products to pass over (or displace) before collecting the set "
+"of Posts."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1813
+msgid "Sort Pages alphabetically (by title) "
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1815
+msgid "Sort by numeric Products ID"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1817
+msgid "Price"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1818
+msgid "Total Sales"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1823
+msgid "Sorts the list of Product in a number of different ways."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1836
+msgid "Change the sort order of the list of Product."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1848
+msgid "Hide Free Products"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1891
+msgid "Contact from"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1892
+#, php-format
+msgid ""
+"Select your contact form. <a href=\"%s\" target=\"_blank\">Add more form</a>"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1923
+#: ../stToolKit/config/builder-items-functions.php:1953
+#: ../stToolKit/config/builder-items.php:195
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:563
+msgid "Slider"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1924
+#, php-format
+msgid ""
+"Select LayerSlider. <a href=\"%s\" target=\"_blank\">Manage LayerSlider</a>"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1954
+#, php-format
+msgid ""
+"Select Revolution Slider. <a href=\"%s\" target=\"_blank\">Manage Revolution "
+"Sliders</a>"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1973
+msgid "Title of chart"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1982
+msgid "Percent"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1983
+msgid "Percent number the pie chart should have"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1992
+msgid "Chart size"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:1993
+msgid "Chart size in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2001
+msgid "Number percent inside"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2002
+msgid "Icon inside"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2006
+msgid "Display type"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2027
+msgid "Line Width"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2028
+msgid "Width of the bar line in pixel."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2037
+msgid "Bar Color"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2038
+msgid "The color of the curcular bar."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2047
+msgid "Track Color"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2048
+msgid "The color of the track for the bar."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2054
+msgid "Enter some description for this chart"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2077
+#: ../stToolKit/inc/builder-input.php:818 ../stToolKit/widgets/ads-125.php:103
+#: ../stToolKit/widgets/flickr.php:80
+#: ../stToolKit/widgets/popular-posts.php:32
+#: ../stToolKit/widgets/recent-comments.php:32
+#: ../stToolKit/widgets/recent-posts.php:34
+msgid "Title:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2080
+msgid "Percent:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2085
+msgid "Color:"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2094
+msgid "Add/Edit Progress bars"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2095
+msgid ""
+"Here you can add, remove and edit the Progress bars you want to display."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2103
+msgid "Striped"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2104
+msgid "Animated"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2108
+msgid "Style"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2109
+msgid "Choose your style ."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2128
+msgid "Title of CountTo box"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2137
+msgid "From"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2138
+msgid "The number to start counting from."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2147
+msgid "To"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2148
+msgid "The number to stop counting at."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2155
+msgid "medium"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2161
+msgid "Size"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2162
+msgid "Choose your Size."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2171
+msgid "Speed"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2172
+msgid "The number of milliseconds it should take to finish counting."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2181
+msgid "Number Color"
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2182
+msgid "The color of Number."
+msgstr ""
+
+#: ../stToolKit/config/builder-items-functions.php:2192
+msgid "The color of text."
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:10
+msgid "Default Layout - Set in Theme Options"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:11
+msgid "No Sidebar"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:12
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:541
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:635
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:13
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:551
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:645
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:14
+msgid "Left and Right Sidebar"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:24
+msgid "Pricing Row"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:25
+msgid "Button Row"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:36
+msgid "Left Column"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:37
+msgid "Highlight Column"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:49
+msgid "Widget"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:51
+msgid "Add a widget sidebar"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:56
+#: ../stToolKit/inc/builder-input.php:533
+#: ../stToolKit/inc/builder-input.php:589
+#: ../stToolKit/widgets/tab-content.php:162
+#: ../stToolKit/widgets/tab-content.php:224
+msgid "Text"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:58
+msgid "Add a custom text block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:64
+msgid "Heading"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:67
+msgid "Add a Heading"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:71
+msgid "Tabs"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:73
+msgid "Add Tabs Block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:77
+msgid "Toggle"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:79
+msgid "Add Toggle block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:83
+msgid "Accordion"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:84
+msgid "Add Accordion block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:90
+msgid "Testimonials"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:92
+msgid "Add Testimonials block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:98
+msgid "Add a Notification block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:105
+msgid "Divider"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:106
+msgid "Add Divider"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:113
+msgid "Clients"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:114
+msgid "Add Clients block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:121
+msgid "Team Member"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:123
+msgid "Team member"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:129
+msgid "Custom List"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:130
+msgid "Add Custom List"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:136
+msgid "Button"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:137
+msgid "Add a Button"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:144
+msgid "Table Data"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:145
+msgid "Add a Table"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:152
+msgid "Pricing Box"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:153
+msgid "Add a Pricing Box"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:160
+msgid "Icon Box"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:161
+msgid "Add a Icon box"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:168
+msgid "Simple Gallery"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:171
+msgid "Add Simple Gallery block"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:177
+#: ../stToolKit/inc/builder-input.php:377
+#: ../stToolKit/inc/builder-input.php:920
+#: ../stToolKit/inc/builder-input.php:987
+msgid "Image"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:180
+msgid "Add a Image"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:189
+msgid "Add a Video"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:198
+msgid "Add a Slider"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:215
+msgid "Blog"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:217
+#: ../stToolKit/config/builder-items.php:225
+msgid "Add Blog Item"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:223
+msgid "Map"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:231
+#: ../stToolKit/inc/user/login.php:209 ../stToolKit/inc/user/register.php:129
+#: ../stToolKit/inc/user/register.php:158
+msgid "Login"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:233
+msgid "Add a Login form"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:237
+#: ../stToolKit/inc/user/login.php:230 ../stToolKit/inc/user/register.php:81
+msgid "Register"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:239
+msgid "Add a Register form"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:243
+#: ../stToolKit/inc/user/login.php:176
+msgid "Profile"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:245
+msgid "Add a Profile form"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:249
+#: ../stToolKit/inc/user/login.php:218
+msgid "Lost Password"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:251
+msgid "Add a Lost Password form"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:256
+msgid "Contact From"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:258
+msgid "Add a Contact form"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:263
+msgid "Chart"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:265
+msgid "Add a percentage chart"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:270
+msgid "Progress bars"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:272
+msgid "Add progress bars"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:277
+msgid "CountTo"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:279
+msgid "Add a CountTo box"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:288
+msgid "WC Products"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:290
+msgid "WooCommerce Products"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:300
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:303
+msgid "Add a Contact From 7"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:312
+msgid "LayerSlider"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:315
+msgid "Add a LayerSlider"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:324
+msgid "Revolution"
+msgstr ""
+
+#: ../stToolKit/config/builder-items.php:327
+msgid "Add a Revolution Slider"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:17
+#: ../stToolKit/config/layout-items.php:29
+msgid "Boxed"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:18
+#: ../stToolKit/config/layout-items.php:30
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:441
+msgid "Full Width"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:22
+msgid "Section Mod"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:34
+msgid "Content Inside Mod"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:43
+msgid "Large Padding"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:44
+msgid "No Padding"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:45
+msgid "Custom Padding"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:49
+msgid "Section padding"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:58
+msgid "Section Padding top"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:59
+#: ../stToolKit/config/layout-items.php:70
+msgid "Padding top in pixel."
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:69
+msgid "Section Padding bottom"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:80
+msgid "Section Padding left"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:81
+msgid "Padding left in pixel."
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:91
+msgid "Section Padding right"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:92
+msgid "Padding right in pixel."
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:102
+msgid "Section Margin top"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:103
+msgid "Margin top in pixel."
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:112
+msgid "Section Margin Bottom"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:113
+msgid "Margin bottom in pixel."
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:126
+msgid "Enable parallax effect "
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:127
+msgid "This option required Background Image."
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:136
+msgid "Opacity"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:137
+msgid "Background opacity (0 to 1)."
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:145
+msgid "No border"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:146
+msgid "Border top and bottom"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:150
+msgid "Section border"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:160
+msgid " Background Color"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:161
+msgid ""
+"Select a custom background color for your Section here. Leave empty if you "
+"want to use the background color of the color scheme defined above"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:170
+msgid "Background image"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:171
+msgid ""
+"Enter image url, or choose an existing image from your media library. Leave "
+"empty if you want to use the background image of the color scheme defined "
+"above"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:178
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:720
+msgid "Top left"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:179
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:721
+msgid "Top center"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:180
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:722
+msgid "Top right"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:182
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:724
+msgid "Bottom left"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:183
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:725
+msgid "Bottom center"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:184
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:726
+msgid "Bottom right"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:188
+msgid "Background Image Position"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:195
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:738
+msgid "Repeat"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:196
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:739
+msgid "No repeat"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:197
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:740
+msgid "Horizontally"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:198
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:741
+msgid "Vertically"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:203
+msgid "Background Repeat"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:210
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:753
+msgid "Scroll"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:211
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:754
+msgid "Fixed"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:212
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:755
+msgid "Stretch to fit"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:216
+msgid "Background Attachment"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:225
+msgid "Section Class"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:226
+msgid "Custom Section Class class name for your own style"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:235
+msgid "Section ID"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:236
+msgid "Custom Section ID id for your own style or script"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:258
+msgid "Middle"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:259
+msgid "Bottom"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:263
+msgid "Vertical align"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:282
+msgid "Layout Class"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:283
+msgid "Custom Layout Class class name for your own style"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:292
+msgid "Layout ID"
+msgstr ""
+
+#: ../stToolKit/config/layout-items.php:293
+msgid "Custom Layout ID id for your own style or script"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:124
+msgid "Custom Link"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:125
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:399
+msgid "Content Elements"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:126
+msgid "Taxonomies"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:140
+msgid "Change"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:159
+msgid "Custom link"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:163
+msgid "Ok"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:164
+msgid "Cancel"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:217
+msgid "Select Media"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:228
+#: ../stToolKit/inc/builder-input.php:296
+#: ../stToolKit/inc/builder-input.php:405
+#: ../stToolKit/inc/builder-input.php:462
+#: ../stToolKit/inc/builder-input.php:507
+#: ../stToolKit/inc/builder-input.php:750
+#: ../stToolKit/inc/builder-input.php:783
+#: ../stToolKit/inc/builder-input.php:970
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:263
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:309
+msgid "Remove"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:295
+#: ../stToolKit/inc/builder-input.php:460
+#: ../stToolKit/inc/builder-input.php:748
+#: ../stToolKit/inc/builder-input.php:969
+msgid "Select image"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:320
+#: ../stToolKit/inc/builder-input.php:430
+#: ../stToolKit/inc/builder-input.php:956
+msgid "Change icon"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:321
+#: ../stToolKit/inc/builder-input.php:431
+#: ../stToolKit/inc/builder-input.php:957
+msgid "Icon name"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:345
+#: ../stToolKit/inc/builder-input.php:582
+msgid "Click to toggle"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:375
+msgid "Image Type:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:377
+msgid "icon"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:404
+msgid "Slect image"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:508
+#: ../stToolKit/inc/builder-input.php:784
+msgid "Close"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:534
+msgid "Textarea"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:535
+msgid "Select"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:536
+msgid "Checkbox"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:537
+msgid "Radio"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:538
+msgid "Date"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:539 ../stToolKit/inc/shortcodes.php:2370
+msgid "Captcha"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:540
+msgid "Submit"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:544
+msgid "100%"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:545
+msgid "50%"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:546
+msgid "33%"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:551
+msgid "Email"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:553
+msgid "Phone"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:657
+msgid "Add new"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:849
+#: ../stToolKit/inc/builder-input.php:906
+msgid "Add item"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:863
+msgid "Label:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:865
+msgid "Field Type:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:866
+msgid "Field Width:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:867
+msgid "Place Holder:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:868
+msgid "Validation:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:869
+msgid "Required:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:870
+msgid "Options:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:871
+msgid "CSS Class:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:872
+msgid "Format:"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:920
+msgid "No Icon"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:928
+msgid "Tab title"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:929
+msgid "Enter the tab title here (Better keep it short)."
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:948
+msgid "Should an icon/image be displayed at the left side of the tab title?"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:953
+msgid "Select your icon"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1027
+msgid "Edit Tab"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1081
+msgid "Default Column"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1082
+msgid "Center Column"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1083
+msgid "Right Column"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1089
+msgid "Default Row"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1090
+msgid "Heading Row"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1091
+msgid "Bold Row"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1092
+msgid "Highlight Row"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1168
+msgid "Add Table Row"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1169
+msgid "Add Table Column"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1291
+msgid "No effect"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1292
+msgid "Top To Bottom"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1293
+msgid "Bottom To Top"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1294
+msgid "Left To Right"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1295
+msgid "Right To Left"
+msgstr ""
+
+#: ../stToolKit/inc/builder-input.php:1296
+msgid "FadeIn"
+msgstr ""
+
+#: ../stToolKit/inc/class-sidebars.php:23
+msgid "ST Custom Widget Area"
+msgstr ""
+
+#: ../stToolKit/inc/class-sidebars.php:56
+msgid "Enter Name of the new Widget here"
+msgstr ""
+
+#: ../stToolKit/inc/class-sidebars.php:57
+msgid "Add Widget Area"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:159
+msgid "Keyword"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:159
+msgid "Search"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:186
+msgid "&laquo; Previous"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:187
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:207
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:235
+msgid "Not found."
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:334
+msgid "Layout 1/1"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:339
+msgid "Layout 1/2+1/2"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:344
+msgid "Layout 1/3+1/3+1/3"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:349
+msgid "Layout 1/4+1/4+1/4+1/4"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:358
+msgid "Select shortcode to insert"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:358
+msgid "Shortcodes"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:439
+msgid "Use this template"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:440
+msgid "Remove this template"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:475
+msgid "ST Page Builder"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:531
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:625
+msgid "Select the desired Page layout"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:542
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:636
+msgid "Choose a custom right sidebar for this entry"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:552
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:646
+msgid "Choose a custom left sidebar for this entry"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:561
+msgid "Featured Image"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:575
+msgid "Select/Change Images"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:579
+msgid "Use gallery for your post thumbnail."
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:590
+msgid "Use Video for your post thumbnail, enter video url here:"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:659
+msgid "Show Top Elements"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:660
+msgid "Display the Header with Page Title, Breadcrumb Navigation,..."
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:673
+msgid "Default - Set in Theme Options"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:674
+msgid "Defined Style"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:679
+msgid "Title bar Style"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:691
+msgid "Title bar style"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:692
+msgid "Select defined title bar style."
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:699
+msgid "Select/Change image"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:703
+msgid "Titlebar background image"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:713
+msgid " Titlebar Background Color"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:730
+msgid "Titlebar Background Image Position"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:746
+msgid "Titlebar Background Repeat"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:759
+msgid "Titlebar Background Attachment"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:787
+msgid "Number columns"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:788
+msgid "How many columns of products to show ?"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:801
+msgid "Number Products"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:802
+msgid "How many products per page to show ?"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:817
+msgid "Show relative products"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:818
+msgid "Display relative product on single product"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:831
+msgid "Number Relative Products"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:832
+msgid "How many relative products to show ?"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:849
+msgid "Number Relative columns"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:850
+msgid "How many columns of Relative products to show ?"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:866
+msgid "Show Up-Sells products"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:867
+msgid "Display Up-Sells product on single product"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:880
+msgid "Number Up-Sells Products"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:881
+msgid "How many Up-Sells products to show ?"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:898
+msgid "Number Up-Sells columns"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:899
+msgid "How many columns of Up-Sells products to show ?"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:1017
+msgid "Are you sure want to remove this row ?"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:1018
+msgid "Are you sure want to remove this column ?"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:1019
+msgid "Section settings"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:1020
+msgid "Layout settings"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-admin.php:1021
+msgid "Loading..."
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:69
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:70
+msgid "Switch to default Editor"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:70
+msgid "Switch to Builder"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:140
+msgid "Add a column 100% witdh"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:147
+msgid "Add a column 75% witdh"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:154
+msgid "Add a column 66% witdh"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:162
+msgid "Add a column 50% witdh"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:170
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:178
+msgid "Add a column 33% witdh"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:261
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:307
+msgid "Duplicate"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:262
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:308
+msgid "Settings"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:305
+msgid "New column"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:402
+msgid "Media Elements"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:405
+msgid "Posts Elements"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:408
+msgid "Other Elements"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:417
+msgid "Templates"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:438
+msgid "Add a section"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:492
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:530
+msgid "Save as Template"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:494
+msgid "Enter Template Name"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:495
+msgid "Save"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:496
+msgid "Your template saved."
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:501
+msgid "Select a template"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:529
+msgid "Select template"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:529
+msgid "Load Template"
+msgstr ""
+
+#: ../stToolKit/inc/class-st-pagebuilder-interface.php:543
+msgid ""
+"Welcome to your visual preview area...<br/>You don’t have any content at the "
+"moment. <br/><span>Click or Drag and Drop Builder items to this canvas.</"
+"span>"
+msgstr ""
+
+#: ../stToolKit/inc/functions.php:645
+#, php-format
+msgid "From: %1$s <%2$s>"
+msgstr ""
+
+#: ../stToolKit/inc/post-type-columns.php:68
+msgid "Thumbnail"
+msgstr ""
+
+#: ../stToolKit/inc/shortcodes.php:2371
+msgid "Reload img captcha"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:12
+#, php-format
+msgid "Hi <span class=\"user-loged\">%1$s</span> <a href=\"%2$s\">Logout</a>"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:18
+#: ../stToolKit/inc/user/login-modal.php:37
+#: ../stToolKit/inc/user/login-modal.php:50
+#: ../stToolKit/inc/user/login-modal.php:76
+msgid "Sign In"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:19
+msgid "or"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:20
+#: ../stToolKit/inc/user/login-modal.php:56
+#: ../stToolKit/inc/user/login-modal.php:77
+msgid "Create Account"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:30
+msgid "Create new account"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:36
+msgid "Already a member?"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:39
+#: ../stToolKit/inc/user/login-modal.php:58
+msgid "Lost your password?"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:56
+#: ../stToolKit/inc/user/login-modal.php:77
+#, php-format
+msgid "New to %s ?"
+msgstr ""
+
+#: ../stToolKit/inc/user/login-modal.php:70
+msgid "Lost your password"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:66 ../stToolKit/inc/user/login.php:206
+#: ../stToolKit/inc/user/profile.php:82 ../stToolKit/inc/user/register.php:79
+msgid "Username"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:67 ../stToolKit/inc/user/register.php:83
+msgid "Enter Username"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:68 ../stToolKit/inc/user/login.php:69
+#: ../stToolKit/inc/user/login.php:207
+msgid "Password"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:70 ../stToolKit/inc/user/login.php:208
+msgid "Remember Me"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:71
+msgid "Log In"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:141 ../stToolKit/inc/user/register.php:52
+msgid "Please enter your username"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:142
+msgid "Please enter your password"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:181
+msgid "Logout"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:187
+msgid "Wellcome"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:222
+msgid "Reset Password"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:292 ../stToolKit/inc/user/login.php:397
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:314
+msgid "Username or E-mail:"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:315
+msgid "Enter Username or E-mail"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:373
+msgid "Please enter your username and password to login."
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:435
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:441
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:458
+msgid ""
+"<strong>ERROR</strong>: Invalid username or e-mail or no user registered "
+"with that email address."
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:472
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:484
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:486
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:487
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:488
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:498
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:504
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: ../stToolKit/inc/user/login.php:504
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:22
+msgid "You do not have permission to edit this user."
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:53
+msgid "Profile updated."
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:88
+msgid "First Name"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:93
+msgid "Last Name"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:98
+msgid "Nickname"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:113
+msgid "Contact Info"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:117 ../stToolKit/inc/user/register.php:80
+msgid "E-mail"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:122
+msgid "Website"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:137
+msgid "About Yourself"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:141
+msgid "Biographical Info"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:146
+msgid "New Password"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:151
+msgid "Repeat New Password"
+msgstr ""
+
+#: ../stToolKit/inc/user/profile.php:174
+msgid "Update Profile"
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:53
+msgid "Please enter your email"
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:82
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:84
+msgid "Enter E-mail"
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:93
+#: ../stToolKit/inc/user/register.php:198
+msgid "<strong>ERROR</strong>: User registration is currently not allowed."
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:179
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:181
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:184
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:188
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:190
+msgid "<strong>ERROR</strong>: The email address is incorrect."
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:193
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: ../stToolKit/inc/user/register.php:210
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact "
+"the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: ../stToolKit/templates/loop/loop-post.php:25
+msgid "Post by"
+msgstr ""
+
+#: ../stToolKit/templates/loop/loop-post.php:31
+#: ../stToolKit/widgets/popular-posts.php:125
+msgid "0 Comment"
+msgstr ""
+
+#: ../stToolKit/templates/loop/loop-post.php:31
+#: ../stToolKit/widgets/popular-posts.php:125
+msgid "1 Comment"
+msgstr ""
+
+#: ../stToolKit/templates/loop/loop-post.php:31
+#: ../stToolKit/widgets/popular-posts.php:125
+msgid "% Comments"
+msgstr ""
+
+#: ../stToolKit/templates/loop/loop-post.php:32
+msgid "Read more"
+msgstr ""
+
+#: ../stToolKit/widgets/ads-125.php:11
+msgid "A widget that allows the display of ads 125x125"
+msgstr ""
+
+#: ../stToolKit/widgets/ads-125.php:15
+msgid "ST Ads 125x125"
+msgstr ""
+
+#: ../stToolKit/widgets/ads-125.php:112
+#, php-format
+msgid "Ads %d image url:"
+msgstr ""
+
+#: ../stToolKit/widgets/ads-125.php:116
+#, php-format
+msgid "Ads %d link:"
+msgstr ""
+
+#: ../stToolKit/widgets/ads-125.php:130
+msgid "Randomize ads ?"
+msgstr ""
+
+#: ../stToolKit/widgets/flickr.php:86
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../stToolKit/widgets/flickr.php:92
+msgid "Number of Photos:"
+msgstr ""
+
+#: ../stToolKit/widgets/flickr.php:102
+msgid "Display (random or latest):"
+msgstr ""
+
+#: ../stToolKit/widgets/flickr.php:111
+msgid "Type (user or group):"
+msgstr ""
+
+#: ../stToolKit/widgets/login.php:9
+msgid "ST Login"
+msgstr ""
+
+#: ../stToolKit/widgets/login.php:10
+msgid "Display Login form"
+msgstr ""
+
+#: ../stToolKit/widgets/login.php:35
+msgid "Logged in success redirect to URL: "
+msgstr ""
+
+#: ../stToolKit/widgets/login.php:40
+msgid "Logout redirect to URL: "
+msgstr ""
+
+#: ../stToolKit/widgets/login.php:45
+msgid "Register URL: "
+msgstr ""
+
+#: ../stToolKit/widgets/login.php:50
+msgid "Profile URL: "
+msgstr ""
+
+#: ../stToolKit/widgets/login.php:55
+msgid "Lost password URL: "
+msgstr ""
+
+#: ../stToolKit/widgets/popular-posts.php:10
+msgid "Display Popular Posts"
+msgstr ""
+
+#: ../stToolKit/widgets/popular-posts.php:37
+msgid "How many post to show ? "
+msgstr ""
+
+#: ../stToolKit/widgets/recent-comments.php:10
+msgid "Display Recent Comment with avatar"
+msgstr ""
+
+#: ../stToolKit/widgets/recent-comments.php:37
+msgid "How many comments to show ? "
+msgstr ""
+
+#: ../stToolKit/widgets/recent-posts.php:11
+msgid "ST Recent Posts"
+msgstr ""
+
+#: ../stToolKit/widgets/recent-posts.php:12
+msgid "Display Recent Posts"
+msgstr ""
+
+#: ../stToolKit/widgets/recent-posts.php:39
+msgid "How many posts to show ? "
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:6
+msgid "A widget that displays tabs content"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:8
+msgid "ST Tab Content"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:143
+#: ../stToolKit/widgets/tab-content.php:205
+msgid "X"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:145
+#: ../stToolKit/widgets/tab-content.php:207
+msgid "Tab Title"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:150
+#: ../stToolKit/widgets/tab-content.php:212
+msgid "Tab Content"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:155
+#: ../stToolKit/widgets/tab-content.php:217
+msgid "Popular"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:156
+#: ../stToolKit/widgets/tab-content.php:218
+msgid "Recent"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:157
+#: ../stToolKit/widgets/tab-content.php:219
+msgid "Archive"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:158
+#: ../stToolKit/widgets/tab-content.php:220
+msgid "Comment"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:159
+#: ../stToolKit/widgets/tab-content.php:221
+msgid "Categories"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:160
+#: ../stToolKit/widgets/tab-content.php:222
+msgid "Tag"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:161
+#: ../stToolKit/widgets/tab-content.php:223
+msgid "Page"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:171
+#: ../stToolKit/widgets/tab-content.php:233
+msgid "Text Content"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:180
+#: ../stToolKit/widgets/tab-content.php:242
+msgid "Taxonomy"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:193
+#: ../stToolKit/widgets/tab-content.php:255
+msgid "Number Item"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:264
+msgid "+"
+msgstr ""
+
+#: ../stToolKit/widgets/tab-content.php:266
+msgid "Drag item to sort."
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:14
+msgid "ST Twitter"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:16
+msgid ""
+"Display latest Tweets from Twitter. With query search: from:<your twitter "
+"name>, <@ or #><search string>"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:76
+msgid "Consumer Key"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:80
+msgid "Consumer Secret"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:86
+msgid ""
+"Search Query (<a href=\"https://dev.twitter.com/docs/using-search\" target="
+"\"_blank\" title=\"Read more about Twitter Search query\">?</a>)"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:90
+msgid "Number of Tweets"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:96
+msgid "Show Follow Button?"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:100
+msgid "Show Account Info?"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:104
+msgid "Show User Avatar?"
+msgstr ""
+
+#: ../stToolKit/widgets/twitter.php:108
+msgid ""
+"Exclude replies for UserTimeline <span class=\"description\">( from:* )<span>"
+msgstr ""

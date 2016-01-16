@@ -1,0 +1,2 @@
+.column-images img{ max-height: 50px; max-width: 50px; padding: 2px; border: 1px solid #cccccc; background: #ffff; }
+.column-images .video-thumb{ height: 50px; width: 50px; padding: 2px;  display: block; border: 1px solid #cccccc;  background: #fff url(../images/video.png) center center no-repeat;}

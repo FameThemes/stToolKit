@@ -1,0 +1,781 @@
+/*-------------------------------------------------------------------------------------------
+
+    CUSTOM CSS FOR STTOOLKIT
+    
+    I.  GENERAL
+
+    II. PAGE BUILDER ELEMENTS + SHORTCODES FONT-END STYLESHEET
+
+        1.  Accordions & Toggle
+        2.  Tabs
+        3.  Team Elements
+        4.  Testimonials
+        5.  Toggles
+        6.  Videos
+        7.  Images
+        8.  Simple Gallery
+        9.  Buttons
+        10. Columns
+        11. Services
+        12. Icon Boxed
+        13. Heading
+        14. Notification
+        15. Table
+        16. Google Map
+        17. Login Form
+        18. Register Form
+        19. User Profile
+        20. Carousel
+        21. Slider
+        22. Divider
+        23. Wocommerce
+        24. Blog Posts
+        25. Clients
+        26. Icon List
+        27. Pricing
+        28. Contact Form
+        29. Chart
+        30. Progress bars
+        21. CountTo
+
+    III. WIDGETS
+
+        1. ST Recent Posts
+        2. ST Recent Comments
+        3. ST Popular Post
+        4. ST Twitter Widget
+        5. ST Tab Content 
+
+    IV. BOOTSTRAP HACK
+    V. RESPONSIVE
+
+-------------------------------------------------------------------------------------------*/
+
+
+/*----------------------// I. GENERAL //--------------------------------------*/
+    a:focus{outline: none;}
+    img{max-width: 100%; height: auto; }
+    .align-center{ text-align:  center;}
+    .align-right{ text-align:  right;}
+    .align-left{ text-align:  left;}
+    .no-padding{ padding: 0px !important;}
+    .no-margin{ margin: 0px !important; }
+    .builder-item { margin-bottom: 0px; }
+    .builder-row:after{ clear: both;  display: block; content: " "; }
+    .r-last .builder-row { margin-bottom: 0px;}
+    .builder-row .full-width-mod{padding: 50px 0px;}
+
+    .settings-row.has-custom > .stpb-items-wrapper{ padding-top: 15px; padding-bottom: 15px; }
+    .st-pagination-wrap{ text-align:  center; }
+    .main-wrapper .sidebar .st-login .inp{ width: 100%; margin: 0px; }
+    .st-register-links, .st-login-links{ padding-left: 0px; }
+    .st-register-links li, .st-login-links li{ list-style:  none; }
+    .stpb-items-wrapper.r-first .rc-full-with .r-first .index-1 .map-code{ margin-top: -80px; }
+    .stpb-items-wrapper.r-first .no-padding .rc-full-with .r-first .index-1 .map-code{ margin-top: -50px; }
+    .full-width-mod .rc-full-with .map-code{ margin-left: -30px;  margin-right: -30px; }
+
+    .stpb-items-wrapper:after{ clear:  both; display: table; content: " ";}
+    .full-width-mod .rc-boxed, .full-width-mod .rc-boxed .builder-item.lv-2  { padding-left: 0px; padding-right: 0px;}
+    .section.boxed-mod .rc-boxed > .bd-row.one{  }
+    .section.boxed-mod .lv-2.columns-inside{ margin-right: -15px; margin-left: -15px; }
+
+    /* ---------------- New ruler for rows settings ----------------- */
+    .section{padding:40px 0px;}
+    .section.section-bordered{border-top:1px solid rgba(0,0,0,0.1);border-bottom:1px solid rgba(0,0,0,0.1)}
+    .section.large-padding{padding:60px 0px;}
+    .bd-row.lv-1, .section .bd-row.lv-2 { margin-bottom: 30px;}
+    .section .bd-row.lv-1.last, .section .bd-row.lv-2.last{ margin-bottom: 0px;}
+
+    /* For items inside columns */
+    .builder-column .lv-3{margin-bottom:40px;}
+    .builder-column .lv-3.last{margin-bottom:0px;}
+
+    /* Page use builder */
+    .main-wrapper-inner{padding:40px 0px;}
+    body.use-builder .main-wrapper-inner{padding:0px;}
+
+    /* Layerslider and revolution slider level 1 */
+    .stpb-LayerSlider.section,.stpb-revslider.section{padding:0px;}
+
+    /*Parallax*/
+    .parallax, .parallax-bg{ background-repeat:  no-repeat; }
+    .parallax .parallax-pattern, .parallax  .mobile-pattern{  position: absolute;  top: 0px; left: 0px; height: 100%; width: 100%;  display:  block; background: url("../images/parallax-overlay.png"); }
+
+    /* Vertical align Columns */
+    .col-va{ width: 100%; }
+    .va-middle { display: table-cell; height: 100%; vertical-align:  middle; }
+    .va-bottom{ display: table-cell; height: 100%; vertical-align:  bottom; }
+    .no-table.col-va { display: auto ; height: auto; }
+
+
+
+
+/*----------------------// II. PAGE BUILDER + SHORTCODES //---------------------*/
+
+
+/*----------// 1. Accordions & Toggle //----------*/
+    .panel .panel-heading a{ text-decoration: none !important;   position: relative; display:  block; }
+    .panel .panel-heading i{ margin-right: 5px;}
+    .panel .panel-heading .toggle-icon{position:absolute;width:15px;height:15px;border-style:solid;border:none;top:16px;right:13px}
+    .panel .panel-heading .collapsed  .vert-icon{border-left-style:solid;border-left-width:3px;position:absolute;left:5px;top:1px;height:11px; border-color: #DDDDDD;}
+    .panel .panel-heading .hor-icon{border-top-style:solid;border-top-width:3px;position:absolute;top:5px;left:1px;width:11px; border-color: #DDDDDD; }
+    .panel{box-shadow: none;}
+    .panel-group .panel + .panel{margin-top:-1px;}
+    .panel-group .panel{border-radius: 0px;}
+    .panel-default > .panel-heading{background: #ffffff;border-color:#f0f0f0;}
+    .panel-default > .panel-heading:hover{}
+    .panel .panel-heading a{color:#656565;}
+    .st-accordion .panel-heading,.st-toggle .panel-heading{padding:0px;border-radius:0px;}
+    .st-accordion .panel-heading a,.st-toggle .panel-heading a{padding:12px 16px;}
+    .acc-content,.toggle-content{background: #f8f9f9;}
+
+
+
+/*----------// 2. Tabs //----------------*/
+    .st-tabs .tab-title .icon-tab { max-width: 17px; max-height: 17px; display: inline-block; margin: 0 10px 0 0; font-size: 14px; vertical-align: middle; }
+    .st-tabs .tab-title .icon-img {  }
+    .st-tabs .tab-title .icon-img img { max-width: 15px; max-height: 15px; }
+    /* Tab Left + Right */
+    .st-tabs.position-left, .st-tabs.position-right { display: table; width: 100%; }
+    .st-tabs.position-left .nav-tabs, .st-tabs.position-right .nav-tabs { display: table-cell; vertical-align: top; width: 25%; min-width: 120px; }
+    .st-tabs.position-left .nav-tabs > li, .st-tabs.position-right .nav-tabs > li { float: none; }
+    .st-tabs .tab-content{ padding: 10px 20px; border-color: transparent #DDDDDD  #DDDDDD #DDDDDD ; border-image: none; border-style: solid; border-width: 1px; }
+    .st-tabs.position-left .nav-tabs , .st-tabs.position-right .nav-tabs { border-bottom: none; display: table-cell; }
+    .st-tabs.position-left .tab-content, .st-tabs.position-right .tab-content{ display: table-cell; height: 100%; border-color:  #DDDDDD  ; }
+    .st-tabs.position-left .nav.nav-tabs  li a{ margin-right: -1px; -webkit-border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-topleft: 4px; -moz-border-radius-bottomleft: 4px; border-top-left-radius: 4px; border-top-right-radius: 0px; border-bottom-left-radius: 4px; border-bottom-right-radius: 0px; }
+    .st-tabs.position-left .nav.nav-tabs  li.active a{ border-right:  none; border-color:  #DDDDDD transparent  #DDDDDD #DDDDDD ; }
+    .st-tabs.position-right .nav.nav-tabs  li a{ margin-left: -1px; -webkit-border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-topleft: 4px; -moz-border-radius-bottomleft: 4px; border-top-left-radius: 0px; border-top-right-radius: 4px; border-bottom-left-radius: 0px; border-bottom-right-radius: 4px; }
+    .st-tabs.position-right .nav.nav-tabs  li.active a{ border-left:  none; border-color:  #DDDDDD  #DDDDDD #DDDDDD  transparent; } 
+
+
+/*----------// 3. Team Elements //-------*/
+    .social-about-wrap{border-top:1px solid #dddddd;padding-top:12px;}
+    .team-member .name {margin: 15px 0px; font-size: 20px;}
+    .team-member .name span.position{font-size: 13px;}
+    .team-member .about-info-inner {background: #FFF; overflow: hidden;border:1px solid #DDDDDD;padding:0px 18px 15px;}
+    .team-member .about-info-inner .desc{margin-bottom: 18px;}
+    .team-member .about-social {display: block; text-align: center; margin: 0; padding: 0;}
+    .team-member li {}
+    .team-member img {}
+    
+
+
+/*----------// 4. Testimonials //--------*/
+    .st-testimonials .testi-item{ margin-bottom: 20px; }
+    .st-testimonials .testi-item.last{ margin-bottom: 0px; }
+    .st-testimonial-list .testi-item{ clear:  both;}
+    .st-testimonial-list .testi-item:after{ clear:  both; display: table; content: " ";}
+    .st-testimonial-image{ float: left; width: 80px; margin-top: 4px; }
+    .st-testimonial-content{ margin-left: 100px; }
+    .st-testimonial-meta{ margin-left: 100px; }
+    .st-testimonial-name{ font-weight:  bold;}
+    .st-testimonial-name{ font-weight:  bold;}
+    .st-testimonials .sp{ margin: 0px 5px;}
+    .st-testimonial-slider { padding-bottom: 30px;}
+    .st-testimonial-slider.carousel .carousel-indicators{ bottom: -5px; text-align:  left; left: 0px; margin-left: 0px; }
+    .st-testimonial-slider.carousel .carousel-indicators li{ border-color:  #333;}
+    .st-testimonial-slider.carousel .carousel-indicators li.active{ background: #428BCA; }
+    .st-testimonial-slider.carousel .carousel-control{ background:  none; }
+    .st-testimonial-slider .carousel-control{  display: none; }
+
+
+/*----------// 5. Toggles //-------------*/
+
+
+/*----------// 6. Videos //-------------*/
+    .st-video iframe, .st-video object ,.st-video embed{ width: 100%; }
+
+
+/*----------// 7. Images  //-------------*/
+    .st-image{}
+    .st-image-center{ text-align:  center; }
+    .st-image-right{ text-align:  right; float: right; margin-left: 15px;}
+    .st-image-left{ text-align:  left; float:  left; margin-right: 15px; }
+
+
+/*----------// 8. Simple Gallery  //-----*/
+    .st-gallery-item { margin-bottom: 30px; }
+    .st-gallery-item.gallery-last-row{ margin-bottom: 0px; }
+
+
+/*----------// 9. Buttons  //------------*/
+    .btn{ border:none; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; box-shadow: inset 0px -1.3px 0px 0px rgba(0,0,0, 0.1); padding: 6px 12px; }
+    .btn-default{ background: #aaaaaa;color:#ffffff; }
+    .btn-sm{border-radius: 2px;}
+    .btn-normal{border-radius: 3px;padding:9px 13px}
+    .btn-lg{border-radius: 3px;font-size: 16px;padding:13px 15px;}
+    .btn-color:hover{background: #aaaaaa;color:#ffffff;}
+    .btn i{margin-right:3px;}
+
+
+/*----------// 10. Columns  //-----------*/
+
+
+/*----------// 11. Services //-----------*/
+    .st-service .service-title{ margin-top: 0px; }
+    .st-service .icon-align-top{ text-align:  center;}
+    .st-service  .icon-align-left .icon-service, .st-service  .icon-align-right .icon-service{ margin-top: 10px; }
+    .st-service  .icon-align-right { text-align:  right; }
+    .st-service .icon-service{ font-size: 4em; text-align:  center; display:  block; }
+    .st-service .icon-service.icon-img{ line-height: 0px; }
+    .st-service .icon-service img{ max-width: 50px; width: auto; }
+    .st-service .icon-align-left .icon-service{ float:  left;  }
+    .st-service .icon-align-left .service-inner{  margin-left: 6em; }
+    .st-service .icon-align-right .icon-service{ float:  right;  }
+    .st-service .icon-align-right .service-inner{  margin-right: 6em; }
+
+
+/*----------// 12. Icon Boxed //---------*/
+
+    .st-iconbox .iconbox-title{ margin-top: 0px;  font-size: 16px; }
+    .st-iconbox .icon-align-top{ text-align:  center;}
+    .st-iconbox .icon-align-left .icon-iconbox, .st-iconbox  .icon-align-right .icon-iconbox{ margin-top: 10px; }
+    .st-iconbox .icon-align-right { text-align:  right; }
+    .st-iconbox .icon-iconbox{ font-size: 4em; text-align:  center; display:  block; }
+    .st-iconbox .icon-iconbox.icon-img{ line-height: 0px; }
+    .st-iconbox .icon-iconbox img{ max-width:100%; width: auto; }
+    .st-iconbox .icon-align-left .icon-iconbox{ float:  left;  }
+    .st-iconbox .icon-align-left .iconbox-inner{  margin-left: 6em; }
+    .st-iconbox .icon-align-right .icon-service{ float:  right;  }
+    .st-iconbox .icon-align-right .iconbox-inner{  margin-right: 6em; }
+
+    .text-align-left{ text-align:  left; }
+    .text-align-right{ text-align:  right; }
+    .text-align-center{ text-align:  center; }
+
+    /*Icon possiton */
+    .icon-align-left  .icon-iconbox{ float: left;}
+    .icon-align-right  .icon-iconbox{ float: right;}
+
+
+    /* Small icon */
+    .icon-small .icon-iconbox{ font-size: 16px; line-height: 36px;}
+    .icon-small .iconbox-title{ font-size: 16px; line-height: 36px;}
+        /* Small top icon */
+        .icon-align-top.icon-small .icon-iconbox{ float:  left;  }
+        .icon-align-top.icon-small .iconbox-content{ clear:  both; }
+        .icon-align-top.icon-small .iconbox-title{  text-align:  left; }
+
+        /* Small left icon */
+        .icon-align-left.icon-small .iconbox-content,
+        .icon-align-left.icon-small .iconbox-title{ margin-left: 40px; }
+        .icon-align-left.icon-small .iconbox-title{ margin-bottom: 0px;}
+
+
+        /* Small right icon */
+        .icon-align-right.icon-small .iconbox-content,
+        .icon-align-right.icon-small .iconbox-title{ margin-right: 40px; }
+        .icon-align-right.icon-small .iconbox-title{ margin-bottom: 0px;}
+
+
+    /* Medium icon */
+    .icon-medium .icon-iconbox{ font-size: 32px; line-height: 65px;}
+    .icon-medium .iconbox-title{ }
+
+        /* Medium top icon */
+
+        /* Medium left icon */
+        .icon-align-left.icon-medium .iconbox-content,
+        .icon-align-left.icon-medium .iconbox-title{ margin-left: 60px; }
+        .icon-align-top.icon-medium .iconbox-title{  text-align:  center; }
+
+         /* Medium right icon */
+        .icon-align-right.icon-medium .iconbox-content,
+        .icon-align-right.icon-medium .iconbox-title{ margin-right: 60px; }
+
+    /* Large icon */
+    .icon-large .icon-iconbox{ font-size: 80px; line-height: 100px;}
+    .icon-large .iconbox-title{ }
+        /*Large top icon */
+         .icon-align-top.icon-large .iconbox-title{  text-align:  center; }
+
+        /* Large left icon */
+        .icon-align-left.icon-large .iconbox-content,
+        .icon-align-left.icon-large .iconbox-title{ margin-left: 120px; }
+
+        /* Large right icon */
+        .icon-align-right.icon-large .iconbox-content,
+        .icon-align-right.icon-large .iconbox-title{ margin-right: 120px; }
+
+
+/*----------// 13. Heading //------------*/
+    .bd-row.lv-2 .stpb-heading{margin-bottom:-10px;}
+    .bd-row.lv-3 .stpb-heading{margin-bottom:-20px;}
+    .stpb-heading > *{margin:0px;padding:0px;}
+
+
+/*----------// 14. Notification //-------*/
+    .st-noti:after{ clear:  both; display:  table; content: " ";}
+    .st-noti  .noti-icon{ font-size: 2em; float:  left; margin-right: 10px;}
+
+
+/*----------// 15. Table //--------------*/
+    .table-caption { margin-bottom: 30px; }
+    .table .highlight td { background-color: #f9f9f9; }
+    .table .bold td { font-weight: bold; }
+    .table tr .center {text-align: center;}
+    .table tr .txt-right {text-align: right;}
+
+
+/*----------// 16. Google Map //---------*/
+    .map-code iframe{ width: 100% !important; max-width: 100%; border:  none; }
+    .st-map, .map{ max-width: 100%;}
+    .st-map img, .map img{ max-width: inherit;}
+    .m-address{ margin-top: 0px; margin-bottom: 0px;}
+    .no-padding .rc-full-with .lv-2.r-index-1.r-first  .index-1 .stpb-map{ margin-top: -50px; margin-left: -30px; margin-right: -30px; }
+    .st-map-wrap{ display: block; width: 100%; position: relative;}
+    .st-map { width:  100% !important;  height: 100% !important;  display:  block;}
+
+
+/*----------// 17. Login Form //---------*/
+    .st-login-act li{ list-style:  none;  display:  inline; }
+
+
+
+/*----------// 18. Register Form //------*/
+
+
+/*----------// 19. User Profile //-------*/
+
+
+/*----------// 20. Carousel //-----------*/
+    .carousel-inner .item{  max-width: 100%; }
+    .st-carousel-w{ position: relative; }
+    .st-carousel .item{ float: left; position: relative; }
+    .st-carousel-w .prev, .st-carousel-w .next{ position: absolute; top: 50%; height: 30px; width: 25px; display:  block; margin-top: -15px; font-size: 18px; color: #fff; text-align: center;  }
+    .st-carousel-w .prev{ left: 15px;}
+    .st-carousel-w .next{ right:15px; }
+    .st-carousel-w .next i, .st-carousel-w .prev i{ padding-top: 6px; display:  block;}
+    .caro-pagination{ position: absolute; bottom: 10px;  right: 30px;}
+    .caro-pagination a{ width: 10px; height: 10px; display:  block; text-indent: -9999999px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; float: left; margin-left: 5px; }
+    .caro-pagination a.selected{ background: #fff;}
+
+
+/*----------// 21. Slider //-------------*/
+
+
+/*----------// 22. Divider //-------------*/
+    .st-divider { height: 0; }
+    .st-divider.st-divider-space { }
+    .st-divider.st-divider-border { border-bottom: 1px solid #f0f0f0; margin:0px; padding: 5px 0 0;}
+    .use-builder.st-divider{margin:0px;}
+
+
+/*----------// 23. WooCommerce //--------*/
+    .woocommerce .products .product{ margin-bottom: 20px; }
+
+/*----------// 24. Blog Posts //---------*/
+    .list-post .item-sp{ margin-bottom: 30px; }
+    .list-post .item-sp.last{ margin-bottom: 0px;}
+    .img-type-medium-right .entry-dynamic-ct , .img-type-medium-right .entry-thumbnail{ float: right; }
+
+/*----------// 25. Clients //------------*/
+    .client-title{ font-size: 16px;}
+    .st-carousel-w.st-clients .item img{ width: 100%; max-width: 100%;  }
+    .st-clients .caro-pagination{ display:  none !important; }
+    .st-clients { padding: 0px 30px;  }
+    .st-clients .prev, .st-clients .next{ background:  none !important; color: #AAAAAA; }
+
+/*----------// 26. Icon List //----------*/
+    ul.st-icon-list{ padding:0px; }
+    .st-icon-list .icon-item{ margin-bottom: 8px; }
+    .st-icon-list .icon-item.last{ margin-bottom: 0px;}
+    .st-icon-list .icon-item, .st-icon-list .icon-item:after{ clear:  both; display:  block; content: " ";}
+    .st-icon-list .icon-item .il-icon{ font-size: 1em; float:  left; }
+    .st-icon-list .il-inner{ margin-left: 2em; }
+    
+/*----------// 27. Pricing Box //----------*/
+    .table.pricing-box{margin-bottom:0px;}
+    .pricing-box-item{ padding-top: 15px; padding-bottom: 15px;; text-align: center; border: 1px solid #e0e0e0;background:#fff;}
+    .pricing-box-item:first-child{ border-left: 1px solid #e0e0e0; }
+    .pricing-box-item.highlight{background: #f8f9f9;box-shadow: 0 0 10px rgba(0, 0, 0, 0.05)}
+    .pricing-box-item .pricing-box-inner > div{ padding: 10px 0; }
+    .pricing-box-item .pricing-box-inner .heading {font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;}
+    .pricing-box-item .pricing-box-inner .pricing {font-size: 50px; line-height: 50px; font-weight: bold;}
+    .pricing-box-item .pricing-box-inner .pricing .currency {font-size: 15px;line-height: 30px;vertical-align: top;}
+    .pricing-box-item .pricing-box-inner .pricing .bill_type {font-size: 15px;}
+    .pricing-box-item.txt-left .pricing-box-inner { text-align: left; }
+    .pricing-box-item.txt-right .pricing-box-inner { text-align: right; }
+    .pricing-box-inner .default,.pricing-box-inner .pricing,.pricing-box-inner .heading{border-bottom:1px solid #f2f2f2;}
+    .pricing-box-inner .pricing{font-family:"Helvetica Neue", Helvetica, sans-serif;}
+    .pricing-box-inner .default:last-child{border:none;}
+    .pricing-box-inner .button{padding-top:20px !important;}
+    .pricing-box-inner .heading{padding-bottom:20px !important;}
+    .pricing-box-item.highlight .default,.pricing-box-item.highlight .pricing,.pricing-box-item.highlight .heading{border-bottom:1px solid #e8e8e8;}
+
+/*----------// 28. Contact Form //----------*/
+    .st-contact-form {width: 100%;}
+    .st-contact-form .contact-form-message {display: none;}
+    .st-contact-form .st-contact-form-action {margin: 0 -15px;}
+    .st-contact-form .contact-form-loader {display: none; padding: 0 0 0 10px;}
+    .st-contact-form .contact-field-item {float: left; padding: 15px;}
+    .st-contact-form .contact-field-item label {display: block; margin-bottom: 5px; font-weight: bold;}
+    .st-contact-form .contact-field-item .contact-form-item-option {margin: 0 10px 0 0;}
+    .st-contact-form .reload-img-captcha {cursor: pointer; font-size: 20px;}
+    .form-control:-moz-placeholder {
+      color: #999999;
+    }
+    .form-control::-moz-placeholder {
+      color: #999999;
+    }
+    .form-control:-ms-input-placeholder {
+      color: #999999;
+    }
+    .form-control::-webkit-input-placeholder {
+      color: #999999;
+    }
+    .form-control {
+      display: block;
+      width: 100%;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.428571429;
+      color: #555555;
+      vertical-align: middle;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+              box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+      -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+              transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    }
+    .form-control:focus {
+      border-color: #66afe9;
+      outline: 0;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+              box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    }
+    .form-control[disabled],
+    .form-control[readonly],
+    fieldset[disabled] .form-control {
+      cursor: not-allowed;
+      background-color: #eeeeee;
+    }
+    textarea.form-control {
+      height: auto;
+    }
+    .st-contact-form .contact-field-item .field-checkbox,
+    .st-contact-form .contact-field-item .field-radio {vertical-align: middle; margin: -3px 5px 0 0;}
+    .st-contact-form .field-col1 {width: 100%;}
+    .st-contact-form .field-col2 {width: 50%;}
+    .st-contact-form .field-col3 {width: 33.333333%;}
+    .st-contact-form .invalid {border: 1px solid #fb7f88; background: url(../images/invalid.png) no-repeat 95% center;}
+
+
+/*----------// 29. ST Chart //-----------------*/
+    .st-chart-wrap{ text-align:  center; }
+    .chart-title{ font-size: 18px; margin: 20px 0px 15px;}
+    .st-chart {  position: relative;  display: inline-block; text-align: center; }
+    .st-chart canvas { position: absolute; top: 0; left: 0;  }
+    .st-chart .percent { display: inline-block;  z-index: 2; font-size: 40px; text-transform: uppercase; overflow: hidden; }
+    .st-chart .percent:after { }
+
+/*----------// 30. ST Progress bar //-----------------*/
+.progress-bar-wrap{ position: relative; }
+.progress-title{}
+.progress-bar-wrap .progress{ height: 15px; overflow: inherit; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; }
+.progress-bar{ position: relative; max-width: 100%; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px;  }
+.progress-bar-wrap .tooltip{ left: auto !important; right: 0px !important;}
+.inner-tooltip{ width: 100%; height: 100%; display:  block; position: relative; }
+.progress-bar-wrap.last .progress{ margin-bottom: 0px; }
+
+/*----------// 31. ST CountTo //-----------------*/
+.st-counter{ text-align: center;}
+.st-counter .counter-number{ font-size: 2em; display:  block; }
+.st-counter.medium .counter-number{ font-size: 4em; line-height: 100%; }
+.st-counter.large .counter-number{ font-size: 6em; line-height: 100%; }}
+
+
+
+/*----------------------// III. CUSTOM WIDGET //---------------------*/
+
+    .widget_posttitle{ font-size: 14px;}
+
+/*----------// 1. ST Recent Posts //----------------*/
+    .widget li .no-thumb{ width: 49px; height: 50px; display:  block; float:  left; border: 1px solid #cccccc;   margin-right:  10px; margin-top: 5px; -webkit-border-radius: 3px;  -moz-border-radius: 3px; border-radius: 3px;  background:  #fff; }
+    .widget_strecentposts li{ padding-bottom: 10px;}
+    .widget_strecentposts li:last-child{ padding-bottom: 0px; border-bottom: none; }
+    .widget_strecentposts  li img{ max-width: 50px; max-height: 50px; width:  auto !important; height:  auto !important; float: left; margin-right:  10px; margin-top: 5px; }
+    .widget_strecentposts .video-thumb{ float: left;}
+    .widget_strecentposts li .recent-date{ display:  block; }
+    .widget_strecentposts li .info{ margin-left: 60px; }
+
+
+/*----------// 2. ST Recent Comments //-------------*/
+    .widget_strecentcomments li{ padding-bottom: 10px;}
+    .widget_strecentcomments li:last-child{ padding-bottom: 0px; border-bottom: none; }
+    .widget_strecentcomments li:after{ display: table; content: " "; clear:  both;}
+    .widget_strecentcomments .widget-post-thumb {float: left; margin-top: 5px; }
+    .widget_strecentcomments .widget-post-content{ margin-left: 60px; }
+
+
+/*----------// 3. ST Popular Posts //---------------*/
+    .widget_stpopularposts li{ padding-bottom: 10px;}
+    .widget_stpopularposts li:last-child{ padding-bottom: 0px; border-bottom: none; }
+    .widget_stpopularposts li:after{ display: table; content: " "; clear:  both;}
+    .widget_stpopularposts .widget-post-thumb  { float: left; margin-top: 5px; }
+    .widget_stpopularposts .widget-post-thumb img{ max-width: 50px !important; }
+    .widget_stpopularposts .widget-post-content{ margin-left: 60px; }
+
+/*----------// 4. ST Twitter Widget //--------------*/
+    .widget_sttwitter .tweet-item{ margin-bottom: 15px;}
+    .widget_sttwitter .tweet-item:last-child{ margin-bottom: 0px;}
+    .widget_sttwitter .tweet-item:after{ clear: both; content: " "; display: block; }
+    .widget_sttwitter .twitter-user{ white-space: pre-wrap; }
+    .widget_sttwitter .tweet-item .name{ float: left; }
+    .widget_sttwitter .tweet-item img{ float:  left; margin-right: 10px; width: 50px; height: auto; margin-top: 5px; }
+    .widget_sttwitter  .tweet-content{ margin-left: 60px; margin-top: 5px; margin-bottom: 5px;}
+    .widget_sttwitter .twitter-follow-button{ margin-left: 60px; }
+    .widget_sttwitter .tweet-item.user_timeline .tweet-content{ margin-left: 0px; margin-top:  0px; margin-bottom: 0px; }
+    .widget_sttwitter .twitter-user img{ float:  left; margin-right: 10px; border: 1px solid #ECECEC; padding: 2px; }
+    .widget_sttwitter .twitter-user .twitter-follow-button{ margin-left: 0px; margin-top: 5px; display:  block; }
+
+/*----------// 5. ST Tab Content //-----------------*/
+    .st-tab-content .nav-tabs li{ border-bottom: none; }
+    .st-tab-content .tab-content{padding-top: 10px; }
+    .st-tab-content .tab-content li:after{ clear:  both; content: " "; display:  table;}
+    .st-tab-content .tab-content  li{ border-bottom: 1px solid #f2f2f2; padding: 0px 0px 18px 0px; margin-bottom: 18px; }
+    .st-tab-content .tab-content li ul li:first-child{ padding-bottom: 10px; padding-top: 10px; margin-top: 10px;  border-top: 1px dashed #cccccc;}
+    .st-tab-content .tab-content  li:last-child{ padding-bottom: 0px; border-bottom: none; }
+    .st-tab-content .tab-content  li img{ max-width: 50px; max-height: 50px; width:  auto !important; height:  auto !important; float: left; margin-right:  10px; margin-top: 5px; }
+    .st-tab-content .tab-content  .video-thumb{ float: left;}
+    .st-tab-content .tab-content  li .no-thumb{ width: 49px; height: 50px; display:  block; float:  left; border: 1px solid #cccccc;   margin-right:  10px; margin-top: 5px;}
+    .st-tab-content .tab-content  li .recent-date{ display:  block; }
+    .st-tab-content .tab-content  li .info{ margin-left: 60px; }
+    .st-tab-content .tab-content  .widget-post-content,
+    .st-tab-content .tab-content  li .info{ margin-left: 60px; }{ margin-left: 60px;}
+
+
+
+/*----------------------// IV. BOOTSTRAP HACK //--------------------*/
+
+/*----------// 1. Form & Input //----------------*/
+    .form-horizontal .form-group{margin-left:0px;margin-right:0px;}
+    .form-group #reg-passmail{margin-bottom:0px;font-style: italic;font-size: 12px;color:#999999;}
+    .modal-dialog{width: 400px;}
+    .form-horizontal .control-label, .form-horizontal .radio, 
+    .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline{padding-top:0px;font-style: italic;font-size: 12px;color:#999999;}
+    .modal-content{border-radius: 0px;box-shadow:0 2px 5px rgba(0, 0, 0, 0.4);}
+    .modal-footer{margin-top:0px;}
+    select,
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="color"],
+    .uneditable-input {
+
+    }
+
+    select:focus,
+    textarea:focus,
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="time"]:focus,
+    input[type="week"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus { 
+        box-shadow: none;
+    }
+
+    .modal-header-label, .modal-header h3{ margin-top: 0px; margin-bottom: 0px;}
+
+
+
+
+/*----------------------// V. ANIMATION //--------------------*/
+
+    .animate-side {
+        opacity: 0;
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
+    }
+
+     .animate-side-left {
+        -webkit-transform: translateX(-80px);
+        -moz-transform: translateX(-80px);
+        transform: translateX(-80px);
+    }
+
+    .animate-side-right {
+        -webkit-transform: translateX(80px);
+        -moz-transform: translateX(80px);
+        transform: translateX(80px);
+    }
+
+
+    .animate-side-top {
+        -webkit-transform: translateY(-80px);
+        -moz-transform: translateY(-80px);
+        transform: translateY(-80px);
+    }
+
+    .animate-side-bottom {
+        -webkit-transform: translateY(80px);
+        -moz-transform: translateY(80px);
+        transform: translateY(80px);
+    }
+
+
+    /* Animated state */
+    /* add you final states (transition) or your effects (animations) for each side */
+    .animate-side-active.animate-side-left,
+    .animate-side-active.animate-side-right{
+        -webkit-transition: -webkit-transform 0.6s, opacity 0.7s;
+        -moz-transition: -moz-transform 0.6s, opacity 0.7s;
+        transition: transform 0.6s, opacity 0.7s;
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    .animate-side-active.animate-side-top,
+    .animate-side-active.animate-side-bottom{
+        -webkit-transition: -webkit-transform 0.6s, opacity 0.7s;
+        -moz-transition: -moz-transform 0.6s, opacity 0.7s;
+        transition: transform 0.6s, opacity 0.7s;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+
+    .animate-fadein {
+        opacity: 0;
+
+        -moz-transform:scale(.1,.1);
+        -webkit-transform:scale(.1,.1);
+        -o-transform:scale(.1,.1);
+        -ms-transform:scale(.1,.1);
+        transform:scale(.1,.1);
+    }
+
+    .animate-fadein.animate-fade-active {
+        opacity: 1;
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+        transform:scale(1,1);
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+    }
+
+
+/*----------------------// V. RESPONSIVE //-------------------------*/
+    
+    @media (max-width: 768px) {
+        .container.main-wrapper-outer{ padding-left: 30px; padding-right: 30px;}
+        .section .rc-inside{ padding-left: 15px; padding-right: 15px;}
+
+        /*.section.first{ padding-top: 0px;}*/
+        .section .bd-row > .builder-column { margin-top: 40px;}
+        .section .bd-row > .builder-column.first { margin-top: 0px;}
+        .st-gallery-item.gallery-last-row{ margin-bottom: 20px; }
+
+        /* Section + bd-row + builder items */
+        .builder-column .lv-3.first.last{margin-bottom:30px;}
+        .section .builder-column.last .lv-3.last{margin-bottom:0px;}
+        .stpb-button .align-right{text-align: center;}
+        .stpb-heading .align-default{text-align: center;}
+
+        /* Mics */
+        .entry-thumbnail{margin-bottom:20px;}
+
+        /* Builder Layouts */
+        .bd-row .builder-column{margin-bottom:40px;}
+        .bd-row .builder-column:last-child{margin-bottom:0px;}
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (max-width: 992px) {
+        .st-gallery-item.gallery-last-row{ margin-bottom: 20px; }
+    }
+    @media (min-width: 992px) {
+
+    }
+
+    @media (min-width: 1200px) {
+        /* II - 27. Pricing Box */
+        .pricing-box-item {
+            float: left;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-left-width: 0px;
+        }
+        .pricing-box-item:first-child{ border-left-width: 1px; }
+        .pricing-box-1 .pricing-box-item {
+            width: 100%;
+        }
+        .pricing-box-2 .pricing-box-item {
+            width: 50%;
+        }
+        .pricing-box-3 .pricing-box-item {
+            width: 33.33333333333333%;
+        }
+        .pricing-box-4 .pricing-box-item {
+            width: 25%;
+        }
+        .pricing-box-5 .pricing-box-item {
+            width: 20%;
+        }
+        .pricing-box-6 .pricing-box-item {
+            width: 16.666666666666664%;
+        }
+        .pricing-box-7 .pricing-box-item {
+            width: 14.28571428571429%;
+        }
+        .pricing-box-8 .pricing-box-item {
+            width: 12.5%;
+        }
+        .pricing-box-9 .pricing-box-item {
+            width: 11.11111111111111%;
+        }
+        .pricing-box-10 .pricing-box-item {
+            width: 10%;
+        }
+        .pricing-box-11 .pricing-box-item {
+            width: 9.090909090909091%;
+        }
+        .pricing-box-12 .pricing-box-item {
+            width: 8.333333333333333%;
+        }
+    }
+
+
+
+
+
+
+
+

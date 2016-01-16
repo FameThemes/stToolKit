@@ -1,0 +1,26 @@
+.sidebar-st-custom h3{ position: relative }
+.sidebar-st-custom h3 .st-remove-widget, .tabs-content  .st-remove-tab{
+    width: 24px; height: 24px;  background: url("../images/icon-remove.png")  0px 1px no-repeat ;
+    position: absolute;
+    top: 3px; right: 0px;
+}
+
+.sidebar-st-custom h3 .st-remove-widget:hover, .tabs-content  .st-remove-tab:hover{
+    background: url("../images/icon-remove.png")  left bottom no-repeat ;
+}
+.tabs-content  .st-remove-tab{ text-indent: -9999px;}
+
+.st-add-widget{
+    border: 1px solid #DFDFDF;
+    margin: 0px 10px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    text-align:  center;
+    padding: 20px;
+    background: #FCFCFC;
+}
+.st-add-widget h3{ margin: 0px 0px 5px;}
+.st-add-widget .input{  display:  block; width: 100%:}
+.st-add-widget .input input{ width: 100%; padding: 5px;   font-size: 14px;}
+.st-add-widget .button-primary{ margin-top: 10px; }
