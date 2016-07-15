@@ -561,8 +561,8 @@
 
 /* LIGHT BOX */
 
-.stpb-lb-overlay{width: 100%; height: 100%; display:  block; opacity: .8; filter:alpha(opacity=80); background: #252525;  position: fixed; top: 0px; left: 0px; z-index: 300; }
-.stpb-lb-box{ height: 100%; width: 100%; display: table; vertical-align:  middle; position: fixed;top: 0px; left: 0px;  z-index: 360; }
+.stpb-lb-overlay{width: 100%; height: 100%; display:  block; opacity: .8; filter:alpha(opacity=80); background: #252525;  position: fixed; top: 0px; left: 0px; z-index: 9900; }
+.stpb-lb-box{ height: 100%; width: 100%; display: table; vertical-align:  middle; position: fixed;top: 0px; left: 0px;  z-index: 9999; }
 .stpb-lb-box.st-lb-lv2{ z-index: 600; }
 .stpb-lb-overlay.st-lb-lv2{ z-index: 500;}
 

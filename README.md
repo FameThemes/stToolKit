@@ -2,7 +2,7 @@ stToolKit - A drag and drop, responsive page builder that simplifies building yo
 =========
 
 
-`~Current Version: 1.6~`
+`~Current Version: 1.5~`
 
 ====System Requirements====
 
@@ -14,16 +14,15 @@ stToolKit - A drag and drop, responsive page builder that simplifies building yo
 
 ====Change log====
 
-Version 1.6
-- Some bugs fixed
-    Changed file:
-        - assets/js/input-items.js
+Version 1.7
+- Remove Map Item.
+
 
 Version 1.5
 - Fixed bug insert shortcodes in WP 3.9
     Changed file:
         assets/js/pagebuilder.js
-- Add Visual editor forr builder item text in WP 3.9
+- Add Visual editor for builder item text in WP 3.9
     Changed file:
         assets/js/input-items.js
 

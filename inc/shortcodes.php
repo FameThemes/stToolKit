@@ -1010,7 +1010,7 @@ if (!class_exists('ST_Client_Shortcode')) {
                 ), $atts);
                 extract($atts);
                 self::$shortcode_count++;
-                $link_target = self::$link_target;
+
                 $img_info=  wp_get_attachment_image_src( $image_id, apply_filters('st_carousel_size','medium'));
                 $out = '';
 

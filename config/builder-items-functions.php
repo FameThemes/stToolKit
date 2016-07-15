@@ -189,11 +189,7 @@ if (!function_exists('stpb_text')) {
         <div class="item">
             <strong><?php _e('Content','smooththemes') ?></strong>
             <span><?php _e('Enter some content for this textblock','smooththemes'); ?></span>
-            <?php stpb_input_textarea($pre_name.'[text]',apply_filters('the_content', $data_values['text'])); ?>
-            <?php /*
-            <span class="desc"><?php _e('Arbitrary text or HTML','smooththemes') ?></span>
-            <p><label><?php stpb_input_checkbox($pre_name.'[autop]',$data_values['autop'],1); ?>&nbsp;<?php _e('Automatically add paragraphs','smooththemes') ?></label></p>
-            */ ?>
+            <?php stpb_input_textarea($pre_name.'[text]', $data_values['text'] ); ?>
         </div>
 
         <div class="item">
@@ -236,92 +232,6 @@ if (!function_exists('stpb_text')) {
     }
 }
 
-if (!function_exists('stpb_map')) {
-    function stpb_map($pre_name ='', $data_values=  array(), $post= false, $no_value = false,  $interface= false){
-        ?>
-
-        <div class="item">
-            <div class="left width-50">
-                <?php
-                stpb_input_ui($pre_name.'[address]', $data_values['address'], array(
-                    'title'=>true,
-                    'content'=>true,
-                    'image'=>false,
-                    'icon'=>false
-                ), array(
-                    'title'=>__('Adress:','smooththemes'),
-                   // 'image'=>__('Image:','smooththemes')
-                ),array(
-                    array(
-                        'title'=>__('Latitude','smooththemes'),
-                        'type'=>'text',
-                        'name'=>'lat'
-                    ),
-                    array(
-                        'title'=>__('Longitude','smooththemes'),
-                        'type'=>'text',
-                        'name'=>'lng'
-                    )
-                ));
-                ?>
-            </div>
-
-            <div class="right width-50">
-                <strong><?php _e('Add/Edit Addresses','smooththemes'); ?></strong>
-                <span><?php _e('Here you can add, remove and edit the Addresses you want to display. Each Item requered Latitude and Longitude for your address. You can find the Latitude and Longitude <a target="_blank" href="http://itouchmap.com/latlong.html">Here</a> or <a target="_blank" href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm">Here</a> ','smooththemes') ?></span>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="left width-50">
-                <?php
-                if($data_values['zoom']==''){
-                    $data_values['zoom'] = 9;
-                }
-                stpb_input_text($pre_name.'[zoom]',$data_values['zoom']); ?>
-            </div>
-            <div class="right  width-50">
-                <strong><?php _e('Zoom level','smooththemes') ?></strong>
-                <span><?php _e('The range depends on where you are looking at. Some places only have zoom levels of 15 or so, where as other places have 23 (or possibly more). O is smallest.','smooththemes'); ?></span>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="left width-50">
-                <?php
-                if($data_values['height']==''){
-                    $data_values['height'] = 300;
-                }
-                stpb_input_text($pre_name.'[height]',$data_values['height']); ?>
-            </div>
-            <div class="right  width-50">
-                <strong><?php _e('Height','smooththemes') ?></strong>
-                <span><?php _e('Map height in pixel.','smooththemes'); ?></span>
-            </div>
-        </div>
-
-
-        <div class="item">
-            <div class="left width-50">
-                <?php stpb_input_color($pre_name.'[color]',$data_values['color']); ?>
-            </div>
-            <div class="right  width-50">
-                <strong><?php _e('Color','smooththemes') ?></strong>
-                <span><?php _e('Special color for this Map','smooththemes'); ?></span>
-            </div>
-        </div>
-        <?php /*
-        <div class="item">
-            <strong><?php _e('Map Desciptions','smooththemes') ?></strong>
-            <span><?php _e('Enter some content for this Map','smooththemes'); ?></span>
-            <?php stpb_input_textarea($pre_name.'[desc]',$data_values['desc']); ?>
-            <span class="desc"><?php _e('Arbitrary text or HTML','smooththemes') ?></span>
-            <p><label><?php stpb_input_checkbox($pre_name.'[desc_autop]',$data_values['desc_autop'],1); ?>&nbsp;<?php _e('Automatically add paragraphs','smooththemes') ?></label></p>
-        </div>
-        */ ?>
-    <?php
-    }
-}
 
 
 if (!function_exists('stpb_heading')) {

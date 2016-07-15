@@ -188,7 +188,7 @@ if (!class_exists('ST_Login')) {
 
 
                 $html .='<div class="logged-in">';
-                $html .= '<h3 class="wellcome-use">'. __('Wellcome', 'smooththemes') .' '. ucwords( $user->display_name ) .'</h3>';
+                $html .= '<h3 class="wellcome-use">'. __('Welcome', 'smooththemes') .' '. ucwords( $user->display_name ) .'</h3>';
                 $html .= '<div class="avatar_container">' . get_avatar( $user->ID, apply_filters( 'st_login_avatar_size', 38 ) ) . '</div>';
 
                 if ( ! empty( $links ) && is_array( $links ) && sizeof( $links > 0 ) && $disable_link != 'y' ) {

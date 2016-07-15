@@ -3,14 +3,14 @@
 Plugin Name: stToolKit
 Plugin URI: http://www.smooththemes.com/
 Description: A drag and drop, responsive page builder that simplifies building your website.
-Version: 1.5
+Version: 1.7
 Author: smooththemes
 Author URI: http://www.smooththemes.com/
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl.html
 */
 
-    if (  ! defined( 'ABSPATH' ) ) exit( 'No direct script access allowed' );
+if (  ! defined( 'ABSPATH' ) ) exit( 'No direct script access allowed' );
 
 
 // Add Featured Image to post type
@@ -185,7 +185,7 @@ if(is_admin()){ // working in back-end
             wp_enqueue_script('jquery');
             // wp_enqueue_script('section-mod', ST_PAGEBUILDER_URL. 'frontend/js/section-mod.js', array('jquery'),'1.0');
             wp_enqueue_script('bootstrap', ST_PAGEBUILDER_URL. 'frontend/js/bootstrap.js', array('jquery'),'3.0', true);
-            wp_enqueue_script('google-map',  'https://maps.google.com/maps/api/js?sensor=true', false, false, true);
+            //wp_enqueue_script('google-map',  'http://maps.google.com/maps/api/js?sensor=true', false, false, true);
             wp_localize_script('jquery','ajaxurl',admin_url('admin-ajax.php'));
             wp_enqueue_script('jquery-ui-datepicker');
 

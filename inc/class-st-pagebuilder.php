@@ -169,6 +169,9 @@ class ST_Page_Builder{
      */
     public static function  the_content($post_id){
         $editor = get_post_meta($post_id, '_st_current_editor', true);
+        if ( post_password_required() ) {
+            return false;
+        }
         if(strtolower($editor)=='builder'){
             $content = self::get_content($post_id);
             if($content!=''){

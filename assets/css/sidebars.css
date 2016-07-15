@@ -2,7 +2,7 @@
 .sidebar-st-custom h3 .st-remove-widget, .tabs-content  .st-remove-tab{
     width: 24px; height: 24px;  background: url("../images/icon-remove.png")  0px 1px no-repeat ;
     position: absolute;
-    top: 3px; right: 0px;
+    top: 9px; right: -5px;
 }
 
 .sidebar-st-custom h3 .st-remove-widget:hover, .tabs-content  .st-remove-tab:hover{
@@ -12,7 +12,7 @@
 
 .st-add-widget{
     border: 1px solid #DFDFDF;
-    margin: 0px 10px;
+    margin: 30px 10px 0px;
     border-radius:3px;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;

@@ -655,7 +655,7 @@ function stLightBox(title,content,  openCallBack, closeCallback){
         }
 
         function textarea(content){
-          
+
             /*
             jQuery('.st-editor textarea',content).each(function(){
 

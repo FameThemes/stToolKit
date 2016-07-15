@@ -43,7 +43,7 @@ if (!function_exists('stpb_generate_text')) {
 
         $effect= st_effect_attr($data_settings['effect']);
 
-        $data_settings['text'] = '<div '.$style.' class="item-text-wrapper'.$class.' '.$effect['class'].'" '.$effect['attr'].'>[st_text]'. balanceTags($data_settings['text']) .'[/st_text]</div>';
+        $data_settings['text'] = '<div '.$style.' class="item-text-wrapper'.$class.' '.$effect['class'].'" '.$effect['attr'].'>'. balanceTags($data_settings['text']) .'</div>';
         $data_settings['text'] = apply_filters('stpb_generate_text', $data_settings['text'], $data);
         return $data_settings['text'];
     }
@@ -624,49 +624,6 @@ if (!function_exists('stpb_generate_revslider')) {
     }
 }
 
-
-
-if (!function_exists('stpb_generate_map')) {
-    function stpb_generate_map($data){
-        $data_settings = wp_parse_args($data['settings']);
-        $short_code ='';
-        if(!empty($data_settings['address'])){
-            $data =$data_settings['address'];
-            $desc = $data_settings['desc'];
-            unset($data_settings['address'], $data_settings['desc']);
-
-            foreach($data as $k=> $a){
-                $data[$k]['title'] =  esc_html($a['title']);
-                if($data[$k]['autop']==1){
-                    $data[$k]['content'] = wpautop(balanceTags($data[$k]['content']));
-                }
-
-                if($a['lat']=='' || $a['lng']==''){
-                    unset($data[$k]);
-                }
-            }
-
-            if(empty($data)){
-                return '';
-            }
-
-            $data = base64_encode(json_encode($data));
-
-
-            if($desc!=''){
-                $desc = balanceTags($desc);
-                if($data_settings['desc_autop']==1){
-                    $desc = wpautop($desc);
-                }
-                $short_code.=' [st_map data="'.$data.'" '.stpb_create_shortcode_attrs($data_settings).' ] '.$desc.' [/st_map]';
-            }else{
-                $short_code.=' [st_map data="'.$data.'" '.stpb_create_shortcode_attrs($data_settings).' ] ';
-            }
-
-        }
-        return $short_code;
-    }
-}
 
 if (!function_exists('stpb_generate_login')) {
     function stpb_generate_login($data){
