@@ -14,8 +14,9 @@ stToolKit - A drag and drop, responsive page builder that simplifies building yo
 
 ====Change log====
 
-Version 1.7
+Version 1.8
 - Remove Map Item.
+- Bug fixes.
 
 
 Version 1.5

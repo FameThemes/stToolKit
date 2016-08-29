@@ -3,7 +3,7 @@
 Plugin Name: stToolKit
 Plugin URI: http://www.smooththemes.com/
 Description: A drag and drop, responsive page builder that simplifies building your website.
-Version: 1.7
+Version: 1.8
 Author: smooththemes
 Author URI: http://www.smooththemes.com/
 License: GPL3
@@ -17,8 +17,8 @@ if (  ! defined( 'ABSPATH' ) ) exit( 'No direct script access allowed' );
 add_theme_support( 'post-thumbnails', array('post') );
 
 // Remove auto p for shortcode
-remove_filter('the_content','do_shortcode');
-add_filter('the_content','do_shortcode',1);
+//remove_filter('the_content','do_shortcode');
+//add_filter('the_content','do_shortcode',1);
 
 // Do shortcodes for widget
 add_filter('widget_text', 'do_shortcode');

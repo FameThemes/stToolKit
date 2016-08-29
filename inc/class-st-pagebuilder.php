@@ -174,12 +174,9 @@ class ST_Page_Builder{
         }
         if(strtolower($editor)=='builder'){
             $content = self::get_content($post_id);
-            if($content!=''){
-                echo do_shortcode($content);
-                return true;
-            }else{
-                return false;
-            }
+            echo do_shortcode( $content );
+            return true;
+
         }
         return false;
     }
@@ -194,7 +191,6 @@ class ST_Page_Builder{
         return $data;
 
     }
-
 
     function generate_build_content($builder_data){
         $builder_content = '';

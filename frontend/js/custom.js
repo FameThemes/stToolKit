@@ -188,130 +188,13 @@
                 });
                 //---------------------
             });
-            /*
-            .always( function( instance ) {
-                //console.log('all images loaded');
-            })
-            .done( function( instance ) {
-               // console.log('all images successfully loaded');
-            })
-            .fail( function() {
-                //console.log('all images loaded, at least one is broken');
-            })
-            .progress( function( instance, image ) {
-                //var result = image.isLoaded ? 'loaded' : 'broken';
-               // console.log( 'image is ' + result + ' for ' + image.img.src );
-            });
-            */
-
-
         }
-
 
         function gmap($contex){
 
-            jQuery('.st-map', $contex).each(function(){
-                var  m = jQuery(this),  id = m.attr('id'), mapZoom = m.attr('map-zoom') || 9, color = m.attr('map-color') || '';
-                m.html('');
-                var map_data = window[id];
-                if(typeof(map_data)==='undefined'){
-                    return false;
-                }
 
-                if(m.hasClass('map-added')){
-                    return false;
-                }
-
-                m.addClass('map-added');
-
-                var is_color =  /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(color);
-
-                mapZoom = parseInt(mapZoom);
-                var mapSettings =  {
-                    div: '#'+id,
-                    lat: map_data[0].lat,
-                    lng: map_data[0].lng,
-                    mapTypeId: id,
-                    zoom: mapZoom,
-                    draggable: true,
-                    zoomControl: true,
-                    panControl: true,
-                    mapTypeControl: false,
-                    scaleControl: true,
-                    streetViewControl: false,
-                    overviewMapControl: true,
-                    scrollwheel: true,
-                    resize : true
-                };
-
-                if(!is_color){
-                    delete mapSettings.mapTypeId;
-                }
-                var map = new GMaps(mapSettings);
-                for(var i=0; i < map_data.length; i++){
-                    var address = {},  content ='';
-
-                    if(map_data[i].lat!=='' && map_data[i].lng!==''){
-                        address = map_data[i];
-
-                        if(address.title!=''){
-                            content = '<h4 class="m-address">'+address.title+'</h4>';
-                        }
-
-                        if(map_data[i].content!=''){
-                            content+='<div class="m-content">'+(map_data[i].content)+'</div>';
-                        }
-
-                        if(content!=''){
-                            address.infoWindow ={};
-                            address.infoWindow.content = content;
-                        }
-
-                        delete address.content ;
-                        // open marker by default
-                        var e = map.addMarker(address);
-                        e.infoWindow.open(map, e);
-
-                    }
-                }
-
-                // if color is set
-                if(is_color){
-                    var styles = {
-                        'styledMapName': id,
-                        'mapTypeId': id,
-                         styles:
-                            [{
-                                "featureType": "administrative",
-                                "stylers": [
-                                    { "visibility": "on" }
-                                ]
-                            },
-                                {
-                                    "featureType": "road",
-                                    "stylers": [
-                                        { "visibility": "on" },
-                                        { "hue": color }
-                                    ]
-                                },
-                                {
-                                    "stylers": [
-                                        { "visibility": "on" },
-                                        { "hue": color },
-                                        { "saturation": -30 }
-                                    ]
-                                }
-                            ]
-                    };
-
-                    map.addStyle(styles);
-
-                }// end check color
-
-
-            });
         }
-    }
+    };
 
     function middleColumns($contex){
         var settHeight =  function(c, p){
@@ -322,7 +205,7 @@
             }else{
                 c.addClass('no-table').css({'height' : 'auto'});
             }
-        }
+        };
         jQuery('.bd-row .col-va').each(function(){
             var c=  jQuery(this),  p = c.parents('.bd-row');
             settHeight(c,p);
